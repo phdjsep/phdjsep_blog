@@ -1,0 +1,54 @@
+baseurl = "/"
+title = "phdjsep"
+theme = "hyde"
+languageCode = "en-us"
+copyright = "Sep Dadsetan"
+disqusShortname = "XXX"
+googleAnalytics = "XXX"
+
+[Author]
+    name = "Sep Dadsetan"
+    # profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    # layoutReverse = true
+    # intro = true
+    # logo = "/images/SD-white.png"
+    # headline = "Ghostwriter example"
+    description = "Data & Stuff"
+    # github = "https://github.com/XXX"
+    # gitlab = "https://gitlab.com/XXX"
+    # linkedin = "https://linkedin.com/in/XXX/"
+    # gplus = "https://google.com/+XXX"
+    # twitter = "https://twitter.com/XXX"
+    # stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    email = "XXX@example.com"
+    opengraph = true
+    # shareTwitter = true
+    # shareFacebook = true
+    # shareGooglePlus = true
+    # shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
