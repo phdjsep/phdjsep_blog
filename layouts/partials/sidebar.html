@@ -1,0 +1,25 @@
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <p class="lead">
+        <div id='icons'>
+          <a class="twitter" target="new" href="https://www.twitter.com/phdjsep"><i class='fab fa-twitter fa-lg'></i></a>
+          <a class="facebook" target="new" href="https://www.facebook.com/phdjsep"><i class='fab fa-facebook fa-lg'></i></a>
+          <a class="linkedin" target="new" href="https://www.linkedin.com/in/sepdadsetan"><i class='fab fa-linkedin fa-lg'></i></a>
+          <a class="github" target="new" href="https://www.github.com/phdjsep"><i class='fab fa-github fa-lg'></i></a>
+        </div>
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      {{ range .Site.Menus.main -}}
+        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+      {{- end }}
+    </ul>
+
+    
+
+    <p class="sidebar-sticky">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
+  </div>
+</div>

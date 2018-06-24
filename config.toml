@@ -40,9 +40,5 @@ enableEmoji = true
     post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Contact"
-    url = "/page/contact/"
-
-[[menu.main]]
     name = "About"
     url = "/page/about/"

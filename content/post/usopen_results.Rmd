@@ -1,5 +1,5 @@
 ---
-title: "AFGL US Open Statistics"
+title: "AFGL US Open"
 author: "Sep Dadsetan"
 date: 2018-05-03
 output: html_document
