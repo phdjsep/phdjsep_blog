@@ -15,26 +15,27 @@ enableEmoji = true
     tag = "tags"
 
 [Params]
+    custom_css = ["css/hyde.css", "css/social.css"]
+    description = "Data & Stuff"
+    email = "phdjsep@gmail.com"
+    opengraph = true
+    dateFormat = "Mon, Jan 2, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
     # layoutReverse = true
     # intro = true
     # logo = "/images/SD-white.png"
     # headline = "Ghostwriter example"
-    description = "Data & Stuff"
     # github = "https://github.com/XXX"
     # gitlab = "https://gitlab.com/XXX"
     # linkedin = "https://linkedin.com/in/XXX/"
     # gplus = "https://google.com/+XXX"
     # twitter = "https://twitter.com/XXX"
     # stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
-    email = "XXX@example.com"
-    opengraph = true
     # shareTwitter = true
     # shareFacebook = true
     # shareGooglePlus = true
     # shareLinkedIn = false
-    dateFormat = "Mon, Jan 2, 2006"
-    highlightJsUrl = ""
-    highlightJsLocalUrl = ""
 
 [Permalinks]
     post = "/:year/:month/:day/:slug/"
