@@ -16,7 +16,7 @@ library(knitr)
 library(kableExtra)
 
 # Read data
-scores <- read_csv("footgolf/capital-cup/capital-cup-scores.csv", col_types = c("ciiiiii"), col_names = T)
+scores <- read_csv("../../data/footgolf/capital-cup/capital-cup-scores.csv", col_types = c("ciiiiii"), col_names = T)
 ```
 
 Another Major, another analysis. 
