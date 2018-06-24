@@ -1,0 +1,42 @@
+---
+title: "Capital Cup Statistics"
+author: "Sep Dadsetan"
+date: 2018-06-23
+output: html_document
+categories: ["Sports", "Footgolf"]
+tags: ["R Markdown", "plot", "World Tour"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(warning = F)
+knitr::opts_chunk$set(out.width = '100%')
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Read data
+scores <- read_csv("../../data/footgolf/capital-cup/capital-cup-scores.csv", col_types = c("ciiiiii"), col_names = T)
+```
+
+Another Major, another analysis. 
+
+This time I didn't have the pleasure of being there, but it was fun to keep up from afar. I've pulled data and calculated the course statistics for the tournament. There's more to come, but this is interesting on its own.
+
+
+```{r, warning=FALSE, message=FALSE}
+scores %>% 
+          group_by(hole, par, yds) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```

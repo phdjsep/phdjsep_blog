@@ -1,10 +1,13 @@
 +++
 title = "Contact"
-date = 2015-04-03T02:13:50Z
-author = "My Name"
+author = "Sep Dadsetan"
 description = "How to contact me."
+layout = "page"
 +++
 
-## Contact
-
-Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.
+<div id='icons'>
+	<a class="twitter" target="new" href="https://www.twitter.com/phdjsep"><i class='fab fa-twitter fa-2x'></i></a>
+	<a class="facebook" target="new" href="https://www.facebook.com/phdjsep"><i class='fab fa-facebook fa-2x'></i></a>
+	<a class="linkedin" target="new" href="https://www.linkedin.com/in/sepdadsetan"><i class='fab fa-linkedin fa-2x'></i></a>
+	<a class="github" target="new" href="https://www.github.com/phdjsep"><i class='fab fa-github fa-2x'></i></a>
+</div>

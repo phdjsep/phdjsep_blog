@@ -3,8 +3,9 @@ title = "phdjsep"
 theme = "hyde"
 languageCode = "en-us"
 copyright = "Sep Dadsetan"
-disqusShortname = "XXX"
+disqusShortname = "phdjsep"
 googleAnalytics = "XXX"
+enableEmoji = true
 
 [Author]
     name = "Sep Dadsetan"
@@ -36,19 +37,12 @@ googleAnalytics = "XXX"
     highlightJsLocalUrl = ""
 
 [Permalinks]
-    post = "/:year/:month/:day/:filename/"
-
-[[menu.main]]
-    name = "Projects"
-    url = "/project/"
-    weight = 2
+    post = "/:year/:month/:day/:slug/"
 
 [[menu.main]]
     name = "Contact"
     url = "/page/contact/"
-    weight = 3
 
 [[menu.main]]
     name = "About"
     url = "/page/about/"
-    weight = 4
