@@ -7,35 +7,13 @@ disqusShortname = "phdjsep"
 googleAnalytics = "XXX"
 enableEmoji = true
 
-[Author]
-    name = "Sep Dadsetan"
-    # profile = "https://google.com/+XXX"
-
-[Taxonomies]
-    tag = "tags"
-
 [Params]
     custom_css = ["css/hyde.css", "css/social.css"]
     description = "Data & Stuff"
-    email = "phdjsep@gmail.com"
-    opengraph = true
-    dateFormat = "Mon, Jan 2, 2006"
-    highlightJsUrl = ""
-    highlightJsLocalUrl = ""
-    # layoutReverse = true
-    # intro = true
-    # logo = "/images/SD-white.png"
-    # headline = "Ghostwriter example"
-    # github = "https://github.com/XXX"
-    # gitlab = "https://gitlab.com/XXX"
-    # linkedin = "https://linkedin.com/in/XXX/"
-    # gplus = "https://google.com/+XXX"
-    # twitter = "https://twitter.com/XXX"
-    # stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
-    # shareTwitter = true
-    # shareFacebook = true
-    # shareGooglePlus = true
-    # shareLinkedIn = false
+    github = "https://github.com/phdjsep"
+    linkedin = "https://linkedin.com/in/sepdadsetan/"
+    twitter = "https://twitter.com/phdjsep"
+    facebook = "https://facebook.com/phdjsep"
 
 [Permalinks]
     post = "/:year/:month/:day/:slug/"

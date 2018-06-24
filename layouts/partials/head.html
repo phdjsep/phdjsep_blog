@@ -15,9 +15,9 @@
   {{- end }}
 
   <!-- CSS -->
-  {# <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/print.css" media="print">
   <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/poole.css">
-  <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css"> #}
+  <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css">
   {{ range .Site.Params.custom_css -}}
     <link type="text/css" rel="stylesheet" href="{{ . | absURL }}">
   {{- end }}
