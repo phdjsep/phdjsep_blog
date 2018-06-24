@@ -16,7 +16,7 @@ library(knitr)
 library(kableExtra)
 
 # Read data
-scores <- read_csv("../../data/footgolf/usopen/usopen_scores.csv", col_types = c("ciiiiit"), col_names = T)
+scores <- read_csv("footgolf/usopen/usopen_scores.csv", col_types = c("ciiiiit"), col_names = T)
 ```
 
 ## Introduction
