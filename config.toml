@@ -1,4 +1,4 @@
-baseurl = "https://eloquent-lamport-2d9f87.netlify.com"
+baseurl = "/"
 title = "phdjsep"
 theme = "hyde"
 languageCode = "en-us"
