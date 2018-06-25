@@ -1,0 +1,143 @@
+---
+title: "US Open"
+author: "Sep Dadsetan"
+date: 2018-05-03
+output: html_document
+categories: ["Sports", "Footgolf"]
+tags: ["R Markdown", "plot", "World Tour", "AFGL"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(warning = F)
+knitr::opts_chunk$set(out.width = '100%')
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Read data
+scores <- read_csv("../../rdata/footgolf/usopen/usopen_scores.csv", col_types = c("ciiiiit"), col_names = T)
+```
+
+## Introduction
+
+The American FootGolf League (AFGL) and River Ridge Golf Course hosted the 2018 U.S. Open in Oxnard, CA on April 26th - 29th. The tournament saw players attend from all over the world for the first major of the FIFG World Tour. The course was very difficult as it was both long (~3600 yds), sloped, fast, and occassionally windy. 
+
+I played in the tournament myself, albeit not well, and anecdotally found that certain holes were more troublesome than others, especially depending on time of day (ex, windy). As is the case in all tournaments there is always commiseration after the round and talk about the holes that ruined it all. I thought to myself, I wonder if the scores would reflect the sentiment people had of certain holes? Did a majority also suffer on Hole X? Did the time of day affect that?
+
+This little analysis seeks to help shed some light on that as well as other fun statistics about the event. Hope you enjoy.
+
+## Data
+
+All the charts you see here are created from a limited dataset. The dataset consists of the top 100 men's players. This is for few reasons: 1) It's difficult and takes time to scrape, clean, and format the data 2) 100 players is a reasonable enough sample size 3) I needed a large enough sample size of players kicking from the same tees in case I wanted to do significance testing. Unfortunately Senior's or Women's division couldn't provide that. I'm optimistic that will change in the future.
+
+## Summary Stats
+
+```{r, warning=FALSE, message=FALSE}
+scores %>% 
+          group_by(hole, par) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+
+
+
+### How were the scores distributed per round?
+
+Mean scores per round were near identical with day 2 showing slightly, but not significant, improved results. Day 3 was the worst.
+```{r score-distribution}
+kable(scores %>% group_by(round) %>% summarize(mean.score = mean(score)), "html") %>% 
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+# Plot Scores
+ggplot(scores, aes(factor(score))) + 
+    geom_bar() +
+    facet_grid(. ~ round) +
+    labs(x = "Score to Par", y = "Count") +
+    ggtitle("Distribution of Scores by Round")
+    
+```
+
+### How were the scores distributed per hole?
+
+Holes 1 and 9 show the highest mean scores. The series of 7,8,9 was quite a gauntlet on it's own as well. Hole 3 was the easiest.
+
+``` {r}
+# Mean score per hole
+kable(scores %>% group_by(hole) %>% summarize(mean.score = mean(score)), "html") %>% kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+# Plot of scoring distribution per hole
+ggplot(scores, aes(factor(score), fill=factor(score))) + 
+    geom_bar() +
+    facet_grid(. ~ hole) +
+    labs(x = "Score to Par", y = "Count") +
+    theme(axis.text.x = element_text(size = 6)) +
+    ggtitle("Distribution of Scores by Hole") +
+    guides(fill=guide_legend(title="Score to Par"))
+# + scale_fill_brewer(palette="Spectral")
+
+```
+
+### How were the scores distributed per hole per round?
+
+The holes played pretty consistently over the three rounds. Hole 1 on round 1 and round 3 seems to have caused a lot of trouble.
+
+```{r}
+# Mean score per round per hole
+kable(scores %>% group_by(hole, round) %>% summarize(mean.score = mean(score)), "html") %>% kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+# scores %>% 
+#     group_by(round, hole) %>% 
+#     summarize(mean.score = mean(score)) %>%
+#     mutate(mean.score = cell_spec(mean.score, "html", bold = T, color = spec_color(mean.score, end = 1))) %>% 
+#     kable("html", escape = F, align = "c") %>%
+#     kable_styling(c("striped", "condensed"), full_width = T)
+# kable("html") %>% kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+ggplot(scores, aes(factor(score), fill=factor(score))) + 
+    geom_bar() +
+    theme(axis.text = element_text(size=6)) +
+    facet_grid(round ~ hole) +
+    labs(x = "Score to Par", y = "Count") +
+    ggtitle("Distribution of Scores by Hole by Round") + 
+    theme(legend.position="bottom", legend.direction="horizontal") + 
+    guides(fill=guide_legend(title="Score to Par"))
+
+
+ggplot(scores, aes(x=factor(hole), y=factor(score))) + 
+    geom_count(aes(color=score)) + 
+    scale_size_area() + 
+    scale_color_gradient(low = '#639D66', high = '#F33E2E') + 
+    facet_grid(. ~ round) + 
+    labs(x = "Hole #", y = "Score to Par") +
+    ggtitle("Distribution of Scores by Hole by Round") + 
+    theme(legend.position="bottom", legend.direction="horizontal")
+
+```
+
+## Did time of day have an impact on scoring?
+
+Although I haven't run any significance testing on it, it seems that the time of day one played the hole did have an impact on certain holes. On Hole 1 for example, we can see that the mean score went from near 1 over par in the morning to 2 over par by 1pm. Other holes had the opposite results. Hole 11 seems to have gotten better later in the day.
+
+```{r}
+# Bin by hour
+scores$hour <- as.POSIXlt(scores$time)$hour
+# aggregate mean score per round per hole
+scores_by_times <- scores %>% group_by(hole, hour) %>% summarize(mean.score = mean(score))
+
+ggplot(scores_by_times, aes(x = hour, y = mean.score)) + 
+    geom_line(aes(color=mean.score), size = 1) + 
+    facet_grid(. ~ hole) +
+    ggtitle("Mean Score per Hole by Hour") +
+    theme(legend.position="bottom", legend.direction="horizontal")
+
+```

@@ -1,0 +1,19 @@
+#icons a {
+  margin: 0 5px;
+}
+#icons a i {
+  color: rgba(255,255,255,.5);
+  transition: all 0.175s ease-in-out;
+}
+#icons a.twitter i:hover {
+  color: #55acee;
+}
+#icons a.facebook i:hover {
+  color: #3B5998;
+}
+#icons a.linkedin i:hover {
+  color: #0077B5;
+}
+#icons a.github i:hover {
+  color: #4078c0;
+}

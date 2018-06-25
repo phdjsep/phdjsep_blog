@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on phdjsep</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on phdjsep</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sep Dadsetan</copyright>
+    <lastBuildDate>Sat, 23 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Capital Cup</title>
+      <link>/2018/06/23/capital-cup/</link>
+      <pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/23/capital-cup/</guid>
+      <description>Another Major, another analysis…
+This time I didn’t have the pleasure of being there, but it was fun to keep up from afar. I’ve pulled data and calculated the course statistics for the tournament.
+Overall Stats Some interesting patterns emerge when calculating all the scores across all rounds.
+ Holes 3, 7, 12, and 14 were the most difficult. Three of them were par 3’s and one par 4. Hole 6, 8, 10 were the easiest.</description>
+    </item>
+    
+    <item>
+      <title>US Open</title>
+      <link>/2018/05/03/us-open/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/03/us-open/</guid>
+      <description>Introduction The American FootGolf League (AFGL) and River Ridge Golf Course hosted the 2018 U.S. Open in Oxnard, CA on April 26th - 29th. The tournament saw players attend from all over the world for the first major of the FIFG World Tour. The course was very difficult as it was both long (~3600 yds), sloped, fast, and occassionally windy.
+I played in the tournament myself, albeit not well, and anecdotally found that certain holes were more troublesome than others, especially depending on time of day (ex, windy).</description>
+    </item>
+    
+  </channel>
+</rss>
