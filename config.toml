@@ -4,7 +4,7 @@ theme = "hyde"
 languageCode = "en-us"
 copyright = "Sep Dadsetan"
 disqusShortname = "phdjsep"
-googleAnalytics = "XXX"
+googleAnalytics = "16280498"
 enableEmoji = true
 
 [Params]
