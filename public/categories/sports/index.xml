@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sep Dadsetan</copyright>
-    <lastBuildDate>Sat, 23 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/sports/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>French Open</title>
+      <link>/2018/06/24/french-open/</link>
+      <pubDate>Sun, 24 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/06/24/french-open/</guid>
+      <description>Overall Stats   hole  par  yds  avg.score  better  eagles  birdies  pars  bogeys  doubles  worse  par.avg      1  5  153  4.610  0  9  132  126  33  0  0  -0.390    2  4  164  3.763  0  3  103  164  23  6  1  -0.</description>
+    </item>
     
     <item>
       <title>Capital Cup</title>

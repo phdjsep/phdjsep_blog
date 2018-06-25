@@ -1,0 +1,128 @@
+---
+title: "French Open"
+author: "Sep Dadsetan"
+date: 2018-06-24
+output: html_document
+categories: ["Sports", "Footgolf"]
+tags: ["R Markdown", "plot", "World Tour"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(warning = F)
+knitr::opts_chunk$set(message = F)
+knitr::opts_chunk$set(out.width = '100%')
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Read data
+scores <- read_csv("../../rdata/footgolf/french-open/french-open-scores.csv", col_types = c("ciiiiii"), col_names = T)
+```
+
+## Overall Stats
+
+```{r}
+scores %>% 
+          group_by(hole, par, yds) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+
+## Per Round
+
+### Round 1
+```{r}
+scores %>% 
+    filter(round == 1) %>%
+          group_by(hole, par, yds) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+### Round 2
+```{r}
+scores %>% 
+    filter(round == 2) %>%
+          group_by(hole, par, yds) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+### Round 3
+```{r}
+scores %>% 
+    filter(round == 3) %>%
+          group_by(hole, par, yds) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+```{r}
+ggplot(scores, aes(factor(score))) + 
+    geom_bar() +
+    facet_grid(. ~ round) +
+    labs(x = "Score to Par", y = "Count") +
+    ggtitle("Distribution of Scores by Round")
+
+
+ggplot(scores, aes(factor(score), fill=factor(score))) + 
+    geom_bar() +
+    theme(axis.text = element_text(size=6)) +
+    facet_grid(round ~ hole) +
+    labs(x = "Score to Par", y = "Count") +
+    ggtitle("Distribution of Scores by Hole by Round") + 
+    theme(legend.position="bottom", legend.direction="horizontal") + 
+    guides(fill=guide_legend(title="Score to Par"))
+
+
+ggplot(scores, aes(x=factor(hole), y=factor(score))) + 
+    geom_count(aes(color=score)) + 
+    scale_size_area() + 
+    scale_color_gradient(low = '#639D66', high = '#F33E2E') + 
+    facet_grid(. ~ round) + 
+    labs(x = "Hole #", y = "Score to Par") +
+    ggtitle("Distribution of Scores by Hole by Round") + 
+    theme(legend.position="bottom", legend.direction="horizontal")
+```

@@ -1,0 +1,2939 @@
+---
+title: "French Open"
+author: "Sep Dadsetan"
+date: 2018-06-24
+output: html_document
+categories: ["Sports", "Footgolf"]
+tags: ["R Markdown", "plot", "World Tour"]
+---
+
+
+
+<div id="overall-stats" class="section level2">
+<h2>Overall Stats</h2>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:right;">
+hole
+</th>
+<th style="text-align:right;">
+par
+</th>
+<th style="text-align:right;">
+yds
+</th>
+<th style="text-align:left;">
+avg.score
+</th>
+<th style="text-align:right;">
+better
+</th>
+<th style="text-align:right;">
+eagles
+</th>
+<th style="text-align:right;">
+birdies
+</th>
+<th style="text-align:right;">
+pars
+</th>
+<th style="text-align:right;">
+bogeys
+</th>
+<th style="text-align:right;">
+doubles
+</th>
+<th style="text-align:right;">
+worse
+</th>
+<th style="text-align:left;">
+par.avg
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+153
+</td>
+<td style="text-align:left;">
+4.610
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+132
+</td>
+<td style="text-align:right;">
+126
+</td>
+<td style="text-align:right;">
+33
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.390</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+164
+</td>
+<td style="text-align:left;">
+3.763
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+103
+</td>
+<td style="text-align:right;">
+164
+</td>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.237</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+202
+</td>
+<td style="text-align:left;">
+4.277
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:right;">
+187
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.277</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:left;">
+4.477
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+178
+</td>
+<td style="text-align:right;">
+69
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.477</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:left;">
+3.027
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+39
+</td>
+<td style="text-align:right;">
+218
+</td>
+<td style="text-align:right;">
+40
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.027</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+137
+</td>
+<td style="text-align:left;">
+3.837
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+91
+</td>
+<td style="text-align:right;">
+168
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.163</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:left;">
+3.310
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+163
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.310</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:left;">
+3.227
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+41
+</td>
+<td style="text-align:right;">
+150
+</td>
+<td style="text-align:right;">
+109
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.227</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+167
+</td>
+<td style="text-align:left;">
+3.790
+</td>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+32
+</td>
+<td style="text-align:right;">
+102
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-1.210</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+198
+</td>
+<td style="text-align:left;">
+4.270
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+70
+</td>
+<td style="text-align:right;">
+104
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+34
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.270</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+178
+</td>
+<td style="text-align:left;">
+2.987
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+72
+</td>
+<td style="text-align:right;">
+138
+</td>
+<td style="text-align:right;">
+73
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-1.013</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+216
+</td>
+<td style="text-align:left;">
+5.490
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+169
+</td>
+<td style="text-align:right;">
+81
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.490</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+273
+</td>
+<td style="text-align:left;">
+3.640
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+133
+</td>
+<td style="text-align:right;">
+141
+</td>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.360</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+193
+</td>
+<td style="text-align:left;">
+4.057
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+72
+</td>
+<td style="text-align:right;">
+165
+</td>
+<td style="text-align:right;">
+43
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.057</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+181
+</td>
+<td style="text-align:left;">
+3.227
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+52
+</td>
+<td style="text-align:right;">
+139
+</td>
+<td style="text-align:right;">
+91
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.773</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+165
+</td>
+<td style="text-align:left;">
+4.120
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+52
+</td>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.120</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+175
+</td>
+<td style="text-align:left;">
+3.610
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+33
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+129
+</td>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.390</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+64
+</td>
+<td style="text-align:left;">
+4.090
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+80
+</td>
+<td style="text-align:right;">
+62
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+36
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">1.090</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="per-round" class="section level2">
+<h2>Per Round</h2>
+<div id="round-1" class="section level3">
+<h3>Round 1</h3>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:right;">
+hole
+</th>
+<th style="text-align:right;">
+par
+</th>
+<th style="text-align:right;">
+yds
+</th>
+<th style="text-align:left;">
+avg.score
+</th>
+<th style="text-align:right;">
+better
+</th>
+<th style="text-align:right;">
+eagles
+</th>
+<th style="text-align:right;">
+birdies
+</th>
+<th style="text-align:right;">
+pars
+</th>
+<th style="text-align:right;">
+bogeys
+</th>
+<th style="text-align:right;">
+doubles
+</th>
+<th style="text-align:right;">
+worse
+</th>
+<th style="text-align:left;">
+par.avg
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+153
+</td>
+<td style="text-align:left;">
+4.440
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+52
+</td>
+<td style="text-align:right;">
+34
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.560</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+164
+</td>
+<td style="text-align:left;">
+3.990
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.010</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+202
+</td>
+<td style="text-align:left;">
+4.450
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+52
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.450</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:left;">
+4.630
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.630</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:left;">
+3.040
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.040</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+137
+</td>
+<td style="text-align:left;">
+3.710
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+43
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.290</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:left;">
+3.330
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+61
+</td>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.330</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:left;">
+3.560
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+56
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.560</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+167
+</td>
+<td style="text-align:left;">
+3.260
+</td>
+<td style="text-align:right;">
+36
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-1.740</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+198
+</td>
+<td style="text-align:left;">
+4.500
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.500</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+178
+</td>
+<td style="text-align:left;">
+2.760
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+39
+</td>
+<td style="text-align:right;">
+34
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-1.240</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+216
+</td>
+<td style="text-align:left;">
+5.450
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+56
+</td>
+<td style="text-align:right;">
+32
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.450</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+273
+</td>
+<td style="text-align:left;">
+3.680
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+40
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.320</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+193
+</td>
+<td style="text-align:left;">
+4.020
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.020</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+181
+</td>
+<td style="text-align:left;">
+3.010
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+39
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.990</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+165
+</td>
+<td style="text-align:left;">
+4.170
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+56
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.170</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+175
+</td>
+<td style="text-align:left;">
+3.320
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.680</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+64
+</td>
+<td style="text-align:left;">
+4.350
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+31
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">1.350</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="round-2" class="section level3">
+<h3>Round 2</h3>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:right;">
+hole
+</th>
+<th style="text-align:right;">
+par
+</th>
+<th style="text-align:right;">
+yds
+</th>
+<th style="text-align:left;">
+avg.score
+</th>
+<th style="text-align:right;">
+better
+</th>
+<th style="text-align:right;">
+eagles
+</th>
+<th style="text-align:right;">
+birdies
+</th>
+<th style="text-align:right;">
+pars
+</th>
+<th style="text-align:right;">
+bogeys
+</th>
+<th style="text-align:right;">
+doubles
+</th>
+<th style="text-align:right;">
+worse
+</th>
+<th style="text-align:left;">
+par.avg
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+153
+</td>
+<td style="text-align:left;">
+4.550
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+49
+</td>
+<td style="text-align:right;">
+41
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.450</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+164
+</td>
+<td style="text-align:left;">
+3.720
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+40
+</td>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.280</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+202
+</td>
+<td style="text-align:left;">
+4.310
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+60
+</td>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.310</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:left;">
+4.320
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+75
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.320</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:left;">
+3.060
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+71
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.060</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+137
+</td>
+<td style="text-align:left;">
+3.850
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+60
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.150</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:left;">
+3.240
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+58
+</td>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.240</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:left;">
+3.440
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+56
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.440</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+167
+</td>
+<td style="text-align:left;">
+3.530
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-1.470</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+198
+</td>
+<td style="text-align:left;">
+4.240
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:right;">
+34
+</td>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.240</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+178
+</td>
+<td style="text-align:left;">
+2.860
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+43
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-1.140</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+216
+</td>
+<td style="text-align:left;">
+5.490
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.490</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+273
+</td>
+<td style="text-align:left;">
+3.620
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+45
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.380</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+193
+</td>
+<td style="text-align:left;">
+4.080
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.080</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+181
+</td>
+<td style="text-align:left;">
+3.190
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+43
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.810</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+165
+</td>
+<td style="text-align:left;">
+4.010
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+57
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.010</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+175
+</td>
+<td style="text-align:left;">
+3.510
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:right;">
+40
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.490</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+64
+</td>
+<td style="text-align:left;">
+4.300
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+34
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">1.300</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="round-3" class="section level3">
+<h3>Round 3</h3>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:right;">
+hole
+</th>
+<th style="text-align:right;">
+par
+</th>
+<th style="text-align:right;">
+yds
+</th>
+<th style="text-align:left;">
+avg.score
+</th>
+<th style="text-align:right;">
+better
+</th>
+<th style="text-align:right;">
+eagles
+</th>
+<th style="text-align:right;">
+birdies
+</th>
+<th style="text-align:right;">
+pars
+</th>
+<th style="text-align:right;">
+bogeys
+</th>
+<th style="text-align:right;">
+doubles
+</th>
+<th style="text-align:right;">
+worse
+</th>
+<th style="text-align:left;">
+par.avg
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+153
+</td>
+<td style="text-align:left;">
+4.840
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+31
+</td>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.160</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+164
+</td>
+<td style="text-align:left;">
+3.580
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+43
+</td>
+<td style="text-align:right;">
+54
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.420</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+202
+</td>
+<td style="text-align:left;">
+4.070
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+75
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.070</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+174
+</td>
+<td style="text-align:left;">
+4.480
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+37
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.480</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:left;">
+2.980
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.020</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+137
+</td>
+<td style="text-align:left;">
+3.950
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.050</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:left;">
+3.360
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+44
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.360</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:left;">
+2.680
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+41
+</td>
+<td style="text-align:right;">
+50
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.320</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+167
+</td>
+<td style="text-align:left;">
+4.580
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+42
+</td>
+<td style="text-align:right;">
+55
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.420</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+198
+</td>
+<td style="text-align:left;">
+4.070
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+33
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.070</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+178
+</td>
+<td style="text-align:left;">
+3.340
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+61
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.660</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+216
+</td>
+<td style="text-align:left;">
+5.530
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.530</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+273
+</td>
+<td style="text-align:left;">
+3.620
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:right;">
+43
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.380</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+193
+</td>
+<td style="text-align:left;">
+4.070
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+49
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.070</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+181
+</td>
+<td style="text-align:left;">
+3.480
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+57
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:left;">
+<span style="     color: green;">-0.520</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+165
+</td>
+<td style="text-align:left;">
+4.180
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+61
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.180</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+175
+</td>
+<td style="text-align:left;">
+4.000
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+64
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.000</span>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+64
+</td>
+<td style="text-align:left;">
+3.620
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+36
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:left;">
+<span style="     color: red;">0.620</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/post/french_open_results_files/figure-html/unnamed-chunk-5-1.png" width="100%" /><img src="/post/french_open_results_files/figure-html/unnamed-chunk-5-2.png" width="100%" /><img src="/post/french_open_results_files/figure-html/unnamed-chunk-5-3.png" width="100%" /></p>
+</div>
+</div>
