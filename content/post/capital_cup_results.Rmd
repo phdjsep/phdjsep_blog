@@ -10,6 +10,7 @@ tags: ["R Markdown", "plot", "World Tour"]
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F)
 knitr::opts_chunk$set(warning = F)
+knitr::opts_chunk$set(message = F)
 knitr::opts_chunk$set(out.width = '100%')
 library(tidyverse)
 library(knitr)
@@ -19,12 +20,20 @@ library(kableExtra)
 scores <- read_csv("../../rdata/footgolf/capital-cup/capital-cup-scores.csv", col_types = c("ciiiiii"), col_names = T)
 ```
 
-Another Major, another analysis. 
+Another Major, another analysis...
 
-This time I didn't have the pleasure of being there, but it was fun to keep up from afar. I've pulled data and calculated the course statistics for the tournament. There's more to come, but this is interesting on its own.
+This time I didn't have the pleasure of being there, but it was fun to keep up from afar. I've pulled data and calculated the course statistics for the tournament. 
 
 
-```{r, warning=FALSE, message=FALSE}
+## Overall Stats
+
+Some interesting patterns emerge when calculating all the scores across all rounds.
+
+- Holes 3, 7, 12, and 14 were the most difficult. Three of them were par 3's and one par 4.
+- Hole 6, 8, 10 were the easiest. All par 5's. :thinking:
+
+
+```{r}
 scores %>% 
           group_by(hole, par, yds) %>% 
           summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
@@ -39,4 +48,94 @@ scores %>%
                                         color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
     kable(escape = F, format = 'html') %>%
     kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+
+## Per Round
+
+### Round 1
+```{r}
+scores %>% 
+    filter(round == 1) %>%
+          group_by(hole, par, yds) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+### Round 2
+```{r}
+scores %>% 
+    filter(round == 2) %>%
+          group_by(hole, par, yds) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+### Round 3
+```{r}
+scores %>% 
+    filter(round == 3) %>%
+          group_by(hole, par, yds) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+When we look at the scoring distribution across the rounds they all seem to be quite normally distributed around par. Interestingly round 2 was more difficult for some and easier for others as indicated by the larger bars for "better than par" and "worse than par".
+
+```{r}
+ggplot(scores, aes(factor(score))) + 
+    geom_bar() +
+    facet_grid(. ~ round) +
+    labs(x = "Score to Par", y = "Count") +
+    ggtitle("Distribution of Scores by Round")
+
+
+ggplot(scores, aes(factor(score), fill=factor(score))) + 
+    geom_bar() +
+    theme(axis.text = element_text(size=6)) +
+    facet_grid(round ~ hole) +
+    labs(x = "Score to Par", y = "Count") +
+    ggtitle("Distribution of Scores by Hole by Round") + 
+    theme(legend.position="bottom", legend.direction="horizontal") + 
+    guides(fill=guide_legend(title="Score to Par"))
+
+
+ggplot(scores, aes(x=factor(hole), y=factor(score))) + 
+    geom_count(aes(color=score)) + 
+    scale_size_area() + 
+    scale_color_gradient(low = '#639D66', high = '#F33E2E') + 
+    facet_grid(. ~ round) + 
+    labs(x = "Hole #", y = "Score to Par") +
+    ggtitle("Distribution of Scores by Hole by Round") + 
+    theme(legend.position="bottom", legend.direction="horizontal")
 ```
