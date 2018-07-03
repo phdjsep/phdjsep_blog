@@ -4,7 +4,8 @@ author: "Sep Dadsetan"
 date: 2018-06-24
 output: html_document
 categories: ["Sports", "Footgolf"]
-tags: ["R Markdown", "plot", "World Tour"]
+tags: ["r-markdown", "plot", "world-tour"]
+image: "img/french-open.png"
 ---
 
 ```{r setup, include=FALSE}

@@ -6,9 +6,10 @@ copyright = "Sep Dadsetan"
 disqusShortname = "phdjsep"
 googleAnalytics = "UA-16280498-1"
 enableEmoji = true
+paginate = 5
 
 [Params]
-    custom_css = ["css/hyde.css", "css/social.css"]
+    custom_css = ["css/poole.css", "css/hyde.css", "css/social.css"]
     description = "Data & Stuff"
     github = "https://github.com/phdjsep"
     linkedin = "https://linkedin.com/in/sepdadsetan/"

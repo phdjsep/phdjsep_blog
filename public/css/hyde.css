@@ -41,7 +41,7 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -107,11 +107,12 @@ html {
 /* About section */
 .sidebar-about a:hover h1 {
   color: #DDD;
-  -webkit-transition: color .2s ease-out;
-  -moz-transition: color .2s ease-out;
-  -o-transition: color .2s ease-out;
-  transition: color .2s ease-out;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
 }
+
 .sidebar-about h1 {
   color: #4B6CB7;
   margin-top: 0;
@@ -165,7 +166,6 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -178,27 +178,50 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
+.post-card {
+    -ms-flex: 1 1 300px;
+    flex: 1 1 300px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 1px solid #EEE;
+    overflow: hidden;
+    margin: 0 20px 40px;
+    /*min-height: 300px;*/
+    background: #fff 50%;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    transition: all .5s ease;
+}
+
+.post-card:hover {
+  box-shadow: 0 0 1px rgba(39,44,49,.1), 0 3px 16px rgba(39,44,49,.07);
+  transition: all .3s ease;
+  transform: translate3D(0,-1px,0);
+}
+
+.post-card-image-link {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+.post-card-image {
+    width: auto;
+    height: 200px;
+    background: #c5d2d9 no-repeat 50%;
+    background-size: cover;
+}
+
+.post-card-header {
+  padding: 15px;
 }
