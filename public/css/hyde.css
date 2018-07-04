@@ -81,10 +81,12 @@ html {
 .sidebar a:hover {
   text-decoration: none;
   color: #DDD;
+  transition: color .2s ease;
+  -webkit-transition: color .2s ease;
 }
 
 /* Animated CSS underline */
-.sidebar-nav a:after {
+/*.sidebar-nav a:after {
   content: '';
   position: absolute;
   width: 0; 
@@ -101,7 +103,7 @@ html {
   width: 100%;
   left: 0;
   background: #4b6cb7;
-}
+}*?
 
 
 /* About section */
@@ -123,8 +125,16 @@ html {
 
 /* Sidebar nav */
 .sidebar-nav {
+  margin-top: 3rem;
   padding-left: 0;
   list-style: none;
+}
+.sidebar-nav a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.sidebar-nav h5 {
+  color: #DDD;
 }
 .sidebar-nav-item {
   display: block;
@@ -226,7 +236,28 @@ a.sidebar-nav-item:focus {
   padding: 15px;
 }
 
+.post-card-content-link:hover {
+  text-decoration: none;
+}
 
 .instagram-media {
   /*max-width: 300px;*/
+}
+
+#tag-cloud {
+  margin: 2rem 0;
+}
+#tag-cloud h5 {
+  color: #DDD;
+}
+.tag-cloud-link {
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.tag-cloud-link:hover {
+  text-decoration: none;
+  color: #DDD;
+  transition: color .2s ease;
+  -webkit-transition: color .2s ease;
 }
