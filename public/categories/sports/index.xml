@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sep Dadsetan</copyright>
-    <lastBuildDate>Sun, 24 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/sports/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tableau Dashboard for Mean Scores in FIFG Majors</title>
+      <link>/2018/07/18/tableau-dashboard-for-mean-scores-in-fifg-majors/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/18/tableau-dashboard-for-mean-scores-in-fifg-majors/</guid>
+      <description>  var divElement = document.getElementById(&#39;viz1531892575620&#39;); var vizElement = divElement.getElementsByTagName(&#39;object&#39;)[0]; vizElement.style.width=&#39;100%&#39;;vizElement.style.height=(divElement.offsetWidth*0.75)+&#39;px&#39;; var scriptElement = document.createElement(&#39;script&#39;); scriptElement.src = &#39;https://public.tableau.com/javascripts/api/viz_v1.js&#39;; vizElement.parentNode.insertBefore(scriptElement, vizElement);   </description>
+    </item>
+    
+    <item>
+      <title>Comparing Majors</title>
+      <link>/2018/07/07/comparing-majors/</link>
+      <pubDate>Sat, 07 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/07/07/comparing-majors/</guid>
+      <description>Background Footgolf is a new sport and there are a lot of things that are still being figured out. One such item is that courses aren’t rated like they are in golf. Rating requires a whole new level of experience that the sport just doesn’t have a whole lot of yet. Rating a course requires taking into account many different variables like slope, distance, obstacles, etc. You can read about it here from the PGA website.</description>
+    </item>
     
     <item>
       <title>French Open</title>

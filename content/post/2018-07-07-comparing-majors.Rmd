@@ -1,0 +1,172 @@
+---
+title: Comparing Majors
+author: Sep Dadsetan
+date: '2018-07-07'
+slug: comparing-majors
+categories:
+  - Footgolf
+  - Sports
+tags:
+  - footgolf
+  - r-markdown
+  - world-tour
+draft: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(warning = F)
+knitr::opts_chunk$set(out.width = '100%')
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Read data
+majors_scores <- read_csv("../../rdata/footgolf/majors/majors_scores.csv", col_types = c("ciiiiiic"), col_names = T)
+
+# Multiple plot function
+#
+# ggplot objects can be passed in ..., or to plotlist (as a list of ggplot objects)
+# - cols:   Number of columns in layout
+# - layout: A matrix specifying the layout. If present, 'cols' is ignored.
+#
+# If the layout is something like matrix(c(1,2,3,3), nrow=2, byrow=TRUE),
+# then plot 1 will go in the upper left, 2 will go in the upper right, and
+# 3 will go all the way across the bottom.
+#
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  library(grid)
+
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+
+  numPlots = length(plots)
+
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                    ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+
+ if (numPlots==1) {
+    print(plots[[1]])
+
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
+
+```
+
+## Background
+Footgolf is a new sport and there are a lot of things that are still being figured out. One such item is that courses aren't rated like they are in golf. Rating requires a whole new level of experience that the sport just doesn't have a whole lot of yet. Rating a course requires taking into account many different variables like slope, distance, obstacles, etc. You can read about it [here](https://www.usga.org/handicapping-articles/course-rating-primer-e5bf725f.html) from the PGA website. Footgolf is too new to have that, but it got me thinking. How uniform are major tournament courses? Are pars approximately the same distance? How does the field perform at these distances/pars?
+
+I've only played in the US Open major this year and it was LONG, approximately 3700 yds! For some perspective, that's about half the length of the average 18-hole golf course. But not all courses are created the same. The Capital Cup and French Open were 3200 and 2900 yds, respectively. Now understandably, not all courses have the same space and some are built more technically minded. I would encourage readers that have played these variety of courses to comment on their experiences. What's your favorite type of course? Fast, long, technical? Why?
+
+## The Data
+I've aggregated all scores from the top 100 players from each of the major tournaments from [fgranks.com](https://www.fgranks.com). The only exception is the Capital Cup. Only the top 90 players were examined because at the time the data was pulled players in positions greater than 90 received abnormally/artificially high strokes on hole 18. To avoid skewing the analysis I decided to exclude the players.
+
+
+## Analysis
+We want to evaluate if there's a significant difference in distance between pars at each major. These courses were setup independently and one courses distances doesn't affect the another courses distances, so these are independent populations. To evaluate the distance means between courses we can use the unpaired t-test. 
+
+The unpaired t-test, however, assumes that the distribution of the populations is normal. So let's first check to see if the distances are normally distributed at the courses. Our sample is tiny, so we'll need to keep that in mind.
+
+#### Are the distances normally distributed?
+```{r density plot}
+ggplot(majors_scores, aes(yds)) + geom_density() + facet_grid(. ~ par)
+
+# Test for normality
+shapiro.test(unique(filter(majors_scores, par == 3)$yds))
+shapiro.test(unique(filter(majors_scores, par == 4)$yds))
+shapiro.test(unique(filter(majors_scores, par == 5)$yds))
+```
+Our Shapiro-Wilks tests for each par indicate p-values larger than 0.05 (alpha) telling us that we cannot reject the null hypothesis of normal distribution. So our data do not fit the normal distribution.
+
+```{r Normal Q-Q PLots}
+qqnorm(unique(filter(majors_scores, par == 3)$yds)); qqline(unique(filter(majors_scores, par == 3)$yds), col = 3)
+qqnorm(unique(filter(majors_scores, par == 4)$yds)); qqline(unique(filter(majors_scores, par == 4)$yds), col = 3)
+qqnorm(unique(filter(majors_scores, par == 5)$yds)); qqline(unique(filter(majors_scores, par == 5)$yds), col = 3)
+```
+
+```{r}
+t.test(unique(filter(majors_scores, par == 3)$yds), unique(filter(majors_scores, par == 4)$yds))
+t.test(unique(filter(majors_scores, par == 3)$yds), unique(filter(majors_scores, par == 5)$yds))
+t.test(unique(filter(majors_scores, par == 4)$yds), unique(filter(majors_scores, par == 5)$yds))
+```
+
+
+Are the major tournament pars and distances significantly different?
+
+### Mean distances (yards) per par
+```{r par/yds comparisons}
+majors_scores %>% 
+    group_by(tourney, par) %>% 
+    summarize(mean.yds = mean(yds)) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+
+### Boxplot of hole distances from each major colored by their par
+```{r}
+ggplot(majors_scores, aes(tourney, yds)) + 
+    geom_boxplot() +
+    geom_point(aes(color = factor(par))) +
+    labs(color = "Par")
+
+```
+
+### Mean score per hole per round of each tournament
+```{r mean_scores}
+# uso_round_hole_means <- uso_scores %>% group_by(round, hole) %>% summarize(mean.strokes = mean(strokes), mean.score = mean(score))
+# cc_round_hole_means <- cc_scores %>% group_by(round, hole) %>% summarize(mean.strokes = mean(strokes), mean.score = mean(score))
+# fo_round_hole_means <- fo_scores %>% group_by(round, hole) %>% summarize(mean.strokes = mean(strokes), mean.score = mean(score))
+# 
+# uso_mean <- mean(uso_round_hole_means$mean.score)
+# cc_mean <- mean(cc_round_hole_means$mean.score)
+# fo_mean <- mean(fo_round_hole_means$mean.score)
+# 
+# uso_mean_plot <- uso_scores %>% 
+#     group_by(round, hole) %>% 
+#     summarize(mean.strokes = mean(strokes), mean.score = mean(score)) %>% 
+#     ggplot(aes(x = hole, y = mean.score)) + 
+#     geom_path(aes(color = factor(round)), size = 1) + 
+#     geom_hline(yintercept = mean(uso_mean)) +
+#     annotate("text", x = min(uso_scores$hole), y = mean(uso_mean), label = paste("Mean = ", round(mean(uso_mean), 3)), hjust = 1, vjust = -1) +
+#     ggtitle("US Open - Mean Scores per Hole per Round")
+# 
+# cc_mean_plot <- cc_scores %>% 
+#     group_by(round, hole) %>% 
+#     summarize(mean.strokes = mean(strokes), mean.score = mean(score)) %>% 
+#     ggplot(aes(x = hole, y = mean.score)) + 
+#     geom_path(aes(color = factor(round)), size = 1) + 
+#     geom_hline(yintercept = mean(cc_mean)) +
+#     annotate("text", x = min(cc_scores$hole), y = mean(cc_mean), label = paste("Mean = ", round(mean(cc_mean), 3)), hjust = 1, vjust = -1) +
+#     ggtitle("Capital Cup - Mean Scores per Hole per Round")
+# 
+# fo_mean_plot <- fo_scores %>% 
+#     group_by(round, hole) %>% 
+#     summarize(mean.strokes = mean(strokes), mean.score = mean(score)) %>% 
+#     ggplot(aes(x = hole, y = mean.score)) + 
+#     geom_path(aes(color = factor(round)), size = 1) + 
+#     geom_hline(yintercept = mean(fo_mean)) +
+#     annotate("text", x = min(fo_scores$hole), y = mean(fo_mean), label = paste("Mean = ", round(mean(fo_mean), 3)), hjust = 1, vjust = -1) +
+#     ggtitle("French Open - Mean Scores per Hole per Round")
+# 
+# multiplot(uso_mean_plot, cc_mean_plot, fo_mean_plot)
+```
