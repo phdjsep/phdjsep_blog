@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sep Dadsetan</copyright>
-    <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>U.S. Footgolf Nationals - Round 1</title>
+      <link>/2018/08/28/u.s.-footgolf-nationals---round-1/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/08/28/u.s.-footgolf-nationals---round-1/</guid>
+      <description>Summary Stats How were the scores distributed per round?   hole  par  avg.score  better  eagles  birdies  pars  bogeys  doubles  worse  par.avg      1  5  4.817  0  2  23  34  10  2  0  -0.183    2  4  4.620  0  0  1  34  29  5  2  0.</description>
+    </item>
     
     <item>
       <title>Tableau Dashboard for Mean Scores in FIFG Majors</title>

@@ -1,0 +1,59 @@
+---
+title: "U.S. Footgolf Nationals - Round 1"
+author: "Sep Dadsetan"
+date: 2018-08-28
+output: html_document
+categories: ["Sports", "Footgolf"]
+tags: ["r-markdown", "footgolf", "afgl"]
+image: "img/us-nationals.png"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+knitr::opts_chunk$set(warning = F)
+knitr::opts_chunk$set(out.width = '100%')
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+# Read data
+scores <- read_csv("../../rdata/footgolf/nationals/nationals_rd1.csv", col_types = c("ciiiiii"), col_names = T)
+```
+
+## Summary Stats
+
+### How were the scores distributed per round?
+
+```{r score-distribution, message=FALSE}
+scores %>% 
+          group_by(hole, par) %>% 
+          summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
+                    better = sum(score < -2), 
+                    eagles = sum(score == -2), 
+                    birdies = sum(score == -1), 
+                    pars = sum(score == 0), 
+                    bogeys = sum(score == 1), 
+                    doubles = sum(score == 2), 
+                    worse = sum(score > 2), 
+                    par.avg = cell_spec(format(round(mean(score), 3), nsmall = 3), 
+                                        color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
+    kable(escape = F, format = 'html') %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+
+# Plot Scores
+ggplot(scores, aes(factor(score))) + 
+    geom_bar() +
+    labs(x = "Score to Par", y = "Count") +
+    ggtitle("Distribution of Scores")
+    
+```
+
+```{r}
+ggplot(scores, aes(x=factor(hole), y=factor(score))) + 
+    geom_count(aes(color=score)) + 
+    scale_size_area() + 
+    scale_color_gradient(low = '#639D66', high = '#F33E2E') + 
+    labs(x = "Hole #", y = "Score to Par") +
+    ggtitle("Distribution of Scores by Hole") + 
+    theme(legend.position="bottom", legend.direction="horizontal")
+```
