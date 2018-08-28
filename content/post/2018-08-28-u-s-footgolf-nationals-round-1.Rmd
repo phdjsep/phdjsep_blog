@@ -1,18 +1,12 @@
 ---
 title: "U.S. Footgolf Nationals - Round 1"
 author: "Sep Dadsetan"
-date: '2018-08-28'
-draft: no
-image: img/us-nationals.png
-slug: u-s-footgolf-nationals-round-1
-tags:
-- afgl
-- footgolf
-categories:
-- Footgolf
-- Sports
+date: 2018-08-28
+output: html_document
+categories: ["Sports", "Footgolf"]
+tags: ["r-markdown", "footgolf", "afgl"]
+image: "img/us-nationals.png"
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F)
