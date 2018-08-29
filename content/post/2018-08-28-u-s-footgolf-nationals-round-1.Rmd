@@ -1,5 +1,5 @@
 ---
-title: "U.S. Footgolf Nationals - Round 1"
+title: "U.S. Footgolf Nationals - Rounds 1 and 2"
 author: "Sep Dadsetan"
 date: 2018-08-28
 output: html_document
@@ -17,16 +17,14 @@ library(knitr)
 library(kableExtra)
 
 # Read data
-scores <- read_csv("../../rdata/footgolf/nationals/nationals_rd1.csv", col_types = c("ciiiiii"), col_names = T)
-```
+scores_men <- read_csv("../../rdata/footgolf/nationals/nationals_scores_men.csv", col_types = c("ciiiiii"), col_names = T)
+scores_women <- read_csv("../../rdata/footgolf/nationals/nationals_scores_women.csv", col_types = c("ciiiii"), col_names = T)
+scores_seniors <- read_csv("../../rdata/footgolf/nationals/nationals_scores_seniors.csv", col_types = c("ciiiii"), col_names = T)
 
-## Summary Stats
-
-### How were the scores distributed per round?
-
-```{r score-distribution, message=FALSE}
-scores %>% 
-          group_by(hole, par) %>% 
+scoring_table <- function(df, rd) {
+    df %>% 
+        filter(round == rd) %>%
+          group_by(round, hole, par) %>% 
           summarize(avg.score = format(round(mean(strokes), 3), nsmall = 3), 
                     better = sum(score < -2), 
                     eagles = sum(score == -2), 
@@ -39,18 +37,92 @@ scores %>%
                                         color = ifelse(format(round(mean(score), 3), nsmall = 3) > 0, "red", "green"))) %>%
     kable(escape = F, format = 'html') %>%
     kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+}
+```
+
+## Summary Stats by Division  {.tabset}
+
+### Men
+
+#### How were the scores distributed per round?
+
+```{r message=FALSE}
+scoring_table(scores_men, 1)
+scoring_table(scores_men, 2)
+```
+
+```{r message=FALSE}
+
 
 # Plot Scores
-ggplot(scores, aes(factor(score))) + 
+ggplot(scores_men, aes(factor(score))) + 
     geom_bar() +
+    facet_grid(. ~ round) +
     labs(x = "Score to Par", y = "Count") +
     ggtitle("Distribution of Scores")
     
 ```
 
 ```{r}
-ggplot(scores, aes(x=factor(hole), y=factor(score))) + 
+ggplot(scores_men, aes(x=factor(hole), y=factor(score))) + 
     geom_count(aes(color=score)) + 
+    facet_grid(. ~ round) +
+    scale_size_area() + 
+    scale_color_gradient(low = '#639D66', high = '#F33E2E') + 
+    labs(x = "Hole #", y = "Score to Par") +
+    ggtitle("Distribution of Scores by Hole") + 
+    theme(legend.position="bottom", legend.direction="horizontal")
+```
+
+### Women
+
+#### How were the scores distributed per round?
+
+```{r message=FALSE}
+scoring_table(scores_women, 1)
+scoring_table(scores_women, 2)
+
+# Plot Scores
+ggplot(scores_women, aes(factor(score))) + 
+    geom_bar() +
+    facet_grid(. ~ round) +
+    labs(x = "Score to Par", y = "Count") +
+    ggtitle("Distribution of Scores")
+    
+```
+
+```{r}
+ggplot(scores_women, aes(x=factor(hole), y=factor(score))) + 
+    geom_count(aes(color=score)) + 
+    facet_grid(. ~ round) +
+    scale_size_area() + 
+    scale_color_gradient(low = '#639D66', high = '#F33E2E') + 
+    labs(x = "Hole #", y = "Score to Par") +
+    ggtitle("Distribution of Scores by Hole") + 
+    theme(legend.position="bottom", legend.direction="horizontal")
+```
+
+### Seniors
+
+#### How were the scores distributed per round?
+
+```{r message=FALSE}
+scoring_table(scores_seniors, 1)
+scoring_table(scores_seniors, 2)
+
+# Plot Scores
+ggplot(scores_seniors, aes(factor(score))) + 
+    geom_bar() +
+    facet_grid(. ~ round) +
+    labs(x = "Score to Par", y = "Count") +
+    ggtitle("Distribution of Scores")
+    
+```
+
+```{r}
+ggplot(scores_seniors, aes(x=factor(hole), y=factor(score))) + 
+    geom_count(aes(color=score)) + 
+    facet_grid(. ~ round) +
     scale_size_area() + 
     scale_color_gradient(low = '#639D66', high = '#F33E2E') + 
     labs(x = "Hole #", y = "Score to Par") +
