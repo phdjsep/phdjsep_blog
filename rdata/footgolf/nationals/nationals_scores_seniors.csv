@@ -107,24 +107,6 @@ player,round,hole,strokes,par,score
 "Przybysz, Slawomir",1,16,4,4,0
 "Przybysz, Slawomir",1,17,5,5,0
 "Przybysz, Slawomir",1,18,4,3,1
-"Otsuka, Arihiro Eugene",1,1,4,5,-1
-"Otsuka, Arihiro Eugene",1,2,4,4,0
-"Otsuka, Arihiro Eugene",1,3,4,3,1
-"Otsuka, Arihiro Eugene",1,4,5,4,1
-"Otsuka, Arihiro Eugene",1,5,4,4,0
-"Otsuka, Arihiro Eugene",1,6,3,4,-1
-"Otsuka, Arihiro Eugene",1,7,4,3,1
-"Otsuka, Arihiro Eugene",1,8,3,4,-1
-"Otsuka, Arihiro Eugene",1,9,5,5,0
-"Otsuka, Arihiro Eugene",1,10,4,4,0
-"Otsuka, Arihiro Eugene",1,11,4,4,0
-"Otsuka, Arihiro Eugene",1,12,3,3,0
-"Otsuka, Arihiro Eugene",1,13,3,4,-1
-"Otsuka, Arihiro Eugene",1,14,4,5,-1
-"Otsuka, Arihiro Eugene",1,15,4,4,0
-"Otsuka, Arihiro Eugene",1,16,6,4,2
-"Otsuka, Arihiro Eugene",1,17,5,5,0
-"Otsuka, Arihiro Eugene",1,18,3,3,0
 "Diaz, Fernando",1,1,6,5,1
 "Diaz, Fernando",1,2,4,4,0
 "Diaz, Fernando",1,3,3,3,0
@@ -161,24 +143,24 @@ player,round,hole,strokes,par,score
 "Sahm, Rob",1,16,5,4,1
 "Sahm, Rob",1,17,6,5,1
 "Sahm, Rob",1,18,3,3,0
-"Andler, David",1,1,5,5,0
-"Andler, David",1,2,4,4,0
-"Andler, David",1,3,3,3,0
-"Andler, David",1,4,5,4,1
-"Andler, David",1,5,4,4,0
-"Andler, David",1,6,5,4,1
-"Andler, David",1,7,4,3,1
-"Andler, David",1,8,3,4,-1
-"Andler, David",1,9,5,5,0
-"Andler, David",1,10,4,4,0
-"Andler, David",1,11,3,4,-1
-"Andler, David",1,12,2,3,-1
-"Andler, David",1,13,4,4,0
-"Andler, David",1,14,4,5,-1
-"Andler, David",1,15,4,4,0
-"Andler, David",1,16,6,4,2
-"Andler, David",1,17,5,5,0
-"Andler, David",1,18,5,3,2
+"Otsuka, Arihiro Eugene",1,1,4,5,-1
+"Otsuka, Arihiro Eugene",1,2,4,4,0
+"Otsuka, Arihiro Eugene",1,3,4,3,1
+"Otsuka, Arihiro Eugene",1,4,5,4,1
+"Otsuka, Arihiro Eugene",1,5,4,4,0
+"Otsuka, Arihiro Eugene",1,6,3,4,-1
+"Otsuka, Arihiro Eugene",1,7,4,3,1
+"Otsuka, Arihiro Eugene",1,8,3,4,-1
+"Otsuka, Arihiro Eugene",1,9,5,5,0
+"Otsuka, Arihiro Eugene",1,10,4,4,0
+"Otsuka, Arihiro Eugene",1,11,4,4,0
+"Otsuka, Arihiro Eugene",1,12,3,3,0
+"Otsuka, Arihiro Eugene",1,13,3,4,-1
+"Otsuka, Arihiro Eugene",1,14,4,5,-1
+"Otsuka, Arihiro Eugene",1,15,4,4,0
+"Otsuka, Arihiro Eugene",1,16,6,4,2
+"Otsuka, Arihiro Eugene",1,17,5,5,0
+"Otsuka, Arihiro Eugene",1,18,3,3,0
 "Souza, Darrell",1,1,6,5,1
 "Souza, Darrell",1,2,4,4,0
 "Souza, Darrell",1,3,2,3,-1
@@ -215,24 +197,6 @@ player,round,hole,strokes,par,score
 "Rudolph, Michael",1,16,4,4,0
 "Rudolph, Michael",1,17,5,5,0
 "Rudolph, Michael",1,18,3,3,0
-"Kelder, Kevin",1,1,5,5,0
-"Kelder, Kevin",1,2,5,4,1
-"Kelder, Kevin",1,3,3,3,0
-"Kelder, Kevin",1,4,5,4,1
-"Kelder, Kevin",1,5,4,4,0
-"Kelder, Kevin",1,6,3,4,-1
-"Kelder, Kevin",1,7,4,3,1
-"Kelder, Kevin",1,8,4,4,0
-"Kelder, Kevin",1,9,4,5,-1
-"Kelder, Kevin",1,10,3,4,-1
-"Kelder, Kevin",1,11,4,4,0
-"Kelder, Kevin",1,12,4,3,1
-"Kelder, Kevin",1,13,4,4,0
-"Kelder, Kevin",1,14,4,5,-1
-"Kelder, Kevin",1,15,5,4,1
-"Kelder, Kevin",1,16,4,4,0
-"Kelder, Kevin",1,17,5,5,0
-"Kelder, Kevin",1,18,5,3,2
 "Blau, Rudolf",1,1,4,5,-1
 "Blau, Rudolf",1,2,4,4,0
 "Blau, Rudolf",1,3,6,3,3
@@ -251,6 +215,24 @@ player,round,hole,strokes,par,score
 "Blau, Rudolf",1,16,4,4,0
 "Blau, Rudolf",1,17,5,5,0
 "Blau, Rudolf",1,18,3,3,0
+"Kelder, Kevin",1,1,5,5,0
+"Kelder, Kevin",1,2,5,4,1
+"Kelder, Kevin",1,3,3,3,0
+"Kelder, Kevin",1,4,5,4,1
+"Kelder, Kevin",1,5,4,4,0
+"Kelder, Kevin",1,6,3,4,-1
+"Kelder, Kevin",1,7,4,3,1
+"Kelder, Kevin",1,8,4,4,0
+"Kelder, Kevin",1,9,4,5,-1
+"Kelder, Kevin",1,10,3,4,-1
+"Kelder, Kevin",1,11,4,4,0
+"Kelder, Kevin",1,12,4,3,1
+"Kelder, Kevin",1,13,4,4,0
+"Kelder, Kevin",1,14,4,5,-1
+"Kelder, Kevin",1,15,5,4,1
+"Kelder, Kevin",1,16,4,4,0
+"Kelder, Kevin",1,17,5,5,0
+"Kelder, Kevin",1,18,5,3,2
 "Romano, Osvaldo Antonio",1,1,4,5,-1
 "Romano, Osvaldo Antonio",1,2,5,4,1
 "Romano, Osvaldo Antonio",1,3,4,3,1
@@ -287,24 +269,6 @@ player,round,hole,strokes,par,score
 "Galimi, Andrew",1,16,5,4,1
 "Galimi, Andrew",1,17,6,5,1
 "Galimi, Andrew",1,18,4,3,1
-"Hoskinson, James",1,1,6,5,1
-"Hoskinson, James",1,2,5,4,1
-"Hoskinson, James",1,3,6,3,3
-"Hoskinson, James",1,4,6,4,2
-"Hoskinson, James",1,5,4,4,0
-"Hoskinson, James",1,6,5,4,1
-"Hoskinson, James",1,7,4,3,1
-"Hoskinson, James",1,8,4,4,0
-"Hoskinson, James",1,9,6,5,1
-"Hoskinson, James",1,10,4,4,0
-"Hoskinson, James",1,11,4,4,0
-"Hoskinson, James",1,12,4,3,1
-"Hoskinson, James",1,13,4,4,0
-"Hoskinson, James",1,14,6,5,1
-"Hoskinson, James",1,15,4,4,0
-"Hoskinson, James",1,16,4,4,0
-"Hoskinson, James",1,17,8,5,3
-"Hoskinson, James",1,18,5,3,2
 "Karuzas, Darrin",2,1,4,5,-1
 "Karuzas, Darrin",2,2,4,4,0
 "Karuzas, Darrin",2,3,4,3,1
@@ -413,24 +377,6 @@ player,round,hole,strokes,par,score
 "Przybysz, Slawomir",2,16,3,4,-1
 "Przybysz, Slawomir",2,17,4,5,-1
 "Przybysz, Slawomir",2,18,3,3,0
-"Otsuka, Arihiro Eugene",2,1,5,5,0
-"Otsuka, Arihiro Eugene",2,2,4,4,0
-"Otsuka, Arihiro Eugene",2,3,3,3,0
-"Otsuka, Arihiro Eugene",2,4,4,4,0
-"Otsuka, Arihiro Eugene",2,5,4,4,0
-"Otsuka, Arihiro Eugene",2,6,3,4,-1
-"Otsuka, Arihiro Eugene",2,7,3,3,0
-"Otsuka, Arihiro Eugene",2,8,4,4,0
-"Otsuka, Arihiro Eugene",2,9,5,5,0
-"Otsuka, Arihiro Eugene",2,10,4,4,0
-"Otsuka, Arihiro Eugene",2,11,4,4,0
-"Otsuka, Arihiro Eugene",2,12,3,3,0
-"Otsuka, Arihiro Eugene",2,13,4,4,0
-"Otsuka, Arihiro Eugene",2,14,7,5,2
-"Otsuka, Arihiro Eugene",2,15,4,4,0
-"Otsuka, Arihiro Eugene",2,16,4,4,0
-"Otsuka, Arihiro Eugene",2,17,5,5,0
-"Otsuka, Arihiro Eugene",2,18,3,3,0
 "Diaz, Fernando",2,1,5,5,0
 "Diaz, Fernando",2,2,5,4,1
 "Diaz, Fernando",2,3,4,3,1
@@ -467,24 +413,24 @@ player,round,hole,strokes,par,score
 "Sahm, Rob",2,16,5,4,1
 "Sahm, Rob",2,17,5,5,0
 "Sahm, Rob",2,18,3,3,0
-"Andler, David",2,1,5,5,0
-"Andler, David",2,2,4,4,0
-"Andler, David",2,3,3,3,0
-"Andler, David",2,4,4,4,0
-"Andler, David",2,5,4,4,0
-"Andler, David",2,6,4,4,0
-"Andler, David",2,7,3,3,0
-"Andler, David",2,8,4,4,0
-"Andler, David",2,9,5,5,0
-"Andler, David",2,10,4,4,0
-"Andler, David",2,11,4,4,0
-"Andler, David",2,12,3,3,0
-"Andler, David",2,13,4,4,0
-"Andler, David",2,14,6,5,1
-"Andler, David",2,15,4,4,0
-"Andler, David",2,16,4,4,0
-"Andler, David",2,17,6,5,1
-"Andler, David",2,18,3,3,0
+"Otsuka, Arihiro Eugene",2,1,5,5,0
+"Otsuka, Arihiro Eugene",2,2,4,4,0
+"Otsuka, Arihiro Eugene",2,3,3,3,0
+"Otsuka, Arihiro Eugene",2,4,4,4,0
+"Otsuka, Arihiro Eugene",2,5,4,4,0
+"Otsuka, Arihiro Eugene",2,6,3,4,-1
+"Otsuka, Arihiro Eugene",2,7,3,3,0
+"Otsuka, Arihiro Eugene",2,8,4,4,0
+"Otsuka, Arihiro Eugene",2,9,5,5,0
+"Otsuka, Arihiro Eugene",2,10,4,4,0
+"Otsuka, Arihiro Eugene",2,11,4,4,0
+"Otsuka, Arihiro Eugene",2,12,3,3,0
+"Otsuka, Arihiro Eugene",2,13,4,4,0
+"Otsuka, Arihiro Eugene",2,14,7,5,2
+"Otsuka, Arihiro Eugene",2,15,4,4,0
+"Otsuka, Arihiro Eugene",2,16,4,4,0
+"Otsuka, Arihiro Eugene",2,17,5,5,0
+"Otsuka, Arihiro Eugene",2,18,3,3,0
 "Souza, Darrell",2,1,5,5,0
 "Souza, Darrell",2,2,3,4,-1
 "Souza, Darrell",2,3,5,3,2
@@ -521,24 +467,6 @@ player,round,hole,strokes,par,score
 "Rudolph, Michael",2,16,4,4,0
 "Rudolph, Michael",2,17,5,5,0
 "Rudolph, Michael",2,18,3,3,0
-"Kelder, Kevin",2,1,5,5,0
-"Kelder, Kevin",2,2,5,4,1
-"Kelder, Kevin",2,3,5,3,2
-"Kelder, Kevin",2,4,8,4,4
-"Kelder, Kevin",2,5,3,4,-1
-"Kelder, Kevin",2,6,4,4,0
-"Kelder, Kevin",2,7,4,3,1
-"Kelder, Kevin",2,8,4,4,0
-"Kelder, Kevin",2,9,5,5,0
-"Kelder, Kevin",2,10,4,4,0
-"Kelder, Kevin",2,11,3,4,-1
-"Kelder, Kevin",2,12,3,3,0
-"Kelder, Kevin",2,13,3,4,-1
-"Kelder, Kevin",2,14,5,5,0
-"Kelder, Kevin",2,15,4,4,0
-"Kelder, Kevin",2,16,4,4,0
-"Kelder, Kevin",2,17,5,5,0
-"Kelder, Kevin",2,18,3,3,0
 "Blau, Rudolf",2,1,5,5,0
 "Blau, Rudolf",2,2,4,4,0
 "Blau, Rudolf",2,3,3,3,0
@@ -557,6 +485,24 @@ player,round,hole,strokes,par,score
 "Blau, Rudolf",2,16,5,4,1
 "Blau, Rudolf",2,17,5,5,0
 "Blau, Rudolf",2,18,6,3,3
+"Kelder, Kevin",2,1,5,5,0
+"Kelder, Kevin",2,2,5,4,1
+"Kelder, Kevin",2,3,5,3,2
+"Kelder, Kevin",2,4,8,4,4
+"Kelder, Kevin",2,5,3,4,-1
+"Kelder, Kevin",2,6,4,4,0
+"Kelder, Kevin",2,7,4,3,1
+"Kelder, Kevin",2,8,4,4,0
+"Kelder, Kevin",2,9,5,5,0
+"Kelder, Kevin",2,10,4,4,0
+"Kelder, Kevin",2,11,3,4,-1
+"Kelder, Kevin",2,12,3,3,0
+"Kelder, Kevin",2,13,3,4,-1
+"Kelder, Kevin",2,14,5,5,0
+"Kelder, Kevin",2,15,4,4,0
+"Kelder, Kevin",2,16,4,4,0
+"Kelder, Kevin",2,17,5,5,0
+"Kelder, Kevin",2,18,3,3,0
 "Romano, Osvaldo Antonio",2,1,5,5,0
 "Romano, Osvaldo Antonio",2,2,7,4,3
 "Romano, Osvaldo Antonio",2,3,4,3,1
@@ -593,21 +539,273 @@ player,round,hole,strokes,par,score
 "Galimi, Andrew",2,16,5,4,1
 "Galimi, Andrew",2,17,6,5,1
 "Galimi, Andrew",2,18,3,3,0
-"Hoskinson, James",2,1,6,5,1
-"Hoskinson, James",2,2,7,4,3
-"Hoskinson, James",2,3,4,3,1
-"Hoskinson, James",2,4,5,4,1
-"Hoskinson, James",2,5,6,4,2
-"Hoskinson, James",2,6,4,4,0
-"Hoskinson, James",2,7,4,3,1
-"Hoskinson, James",2,8,4,4,0
-"Hoskinson, James",2,9,6,5,1
-"Hoskinson, James",2,10,4,4,0
-"Hoskinson, James",2,11,4,4,0
-"Hoskinson, James",2,12,4,3,1
-"Hoskinson, James",2,13,5,4,1
-"Hoskinson, James",2,14,6,5,1
-"Hoskinson, James",2,15,5,4,1
-"Hoskinson, James",2,16,5,4,1
-"Hoskinson, James",2,17,5,5,0
-"Hoskinson, James",2,18,4,3,1
+"Karuzas, Darrin",3,1,5,5,0
+"Karuzas, Darrin",3,2,3,4,-1
+"Karuzas, Darrin",3,3,4,3,1
+"Karuzas, Darrin",3,4,4,4,0
+"Karuzas, Darrin",3,5,4,4,0
+"Karuzas, Darrin",3,6,4,4,0
+"Karuzas, Darrin",3,7,3,3,0
+"Karuzas, Darrin",3,8,3,4,-1
+"Karuzas, Darrin",3,9,5,5,0
+"Karuzas, Darrin",3,10,4,4,0
+"Karuzas, Darrin",3,11,4,4,0
+"Karuzas, Darrin",3,12,4,3,1
+"Karuzas, Darrin",3,13,3,4,-1
+"Karuzas, Darrin",3,14,4,5,-1
+"Karuzas, Darrin",3,15,4,4,0
+"Karuzas, Darrin",3,16,3,4,-1
+"Karuzas, Darrin",3,17,4,5,-1
+"Karuzas, Darrin",3,18,3,3,0
+"Crane, Steve",3,1,6,5,1
+"Crane, Steve",3,2,5,4,1
+"Crane, Steve",3,3,3,3,0
+"Crane, Steve",3,4,4,4,0
+"Crane, Steve",3,5,3,4,-1
+"Crane, Steve",3,6,5,4,1
+"Crane, Steve",3,7,2,3,-1
+"Crane, Steve",3,8,3,4,-1
+"Crane, Steve",3,9,5,5,0
+"Crane, Steve",3,10,3,4,-1
+"Crane, Steve",3,11,3,4,-1
+"Crane, Steve",3,12,3,3,0
+"Crane, Steve",3,13,4,4,0
+"Crane, Steve",3,14,4,5,-1
+"Crane, Steve",3,15,3,4,-1
+"Crane, Steve",3,16,4,4,0
+"Crane, Steve",3,17,5,5,0
+"Crane, Steve",3,18,3,3,0
+"Gora, Michael",3,1,5,5,0
+"Gora, Michael",3,2,5,4,1
+"Gora, Michael",3,3,4,3,1
+"Gora, Michael",3,4,4,4,0
+"Gora, Michael",3,5,4,4,0
+"Gora, Michael",3,6,3,4,-1
+"Gora, Michael",3,7,3,3,0
+"Gora, Michael",3,8,4,4,0
+"Gora, Michael",3,9,5,5,0
+"Gora, Michael",3,10,3,4,-1
+"Gora, Michael",3,11,3,4,-1
+"Gora, Michael",3,12,3,3,0
+"Gora, Michael",3,13,3,4,-1
+"Gora, Michael",3,14,4,5,-1
+"Gora, Michael",3,15,3,4,-1
+"Gora, Michael",3,16,4,4,0
+"Gora, Michael",3,17,4,5,-1
+"Gora, Michael",3,18,4,3,1
+"Flores, Jason",3,1,4,5,-1
+"Flores, Jason",3,2,4,4,0
+"Flores, Jason",3,3,5,3,2
+"Flores, Jason",3,4,4,4,0
+"Flores, Jason",3,5,4,4,0
+"Flores, Jason",3,6,5,4,1
+"Flores, Jason",3,7,2,3,-1
+"Flores, Jason",3,8,3,4,-1
+"Flores, Jason",3,9,4,5,-1
+"Flores, Jason",3,10,4,4,0
+"Flores, Jason",3,11,4,4,0
+"Flores, Jason",3,12,3,3,0
+"Flores, Jason",3,13,3,4,-1
+"Flores, Jason",3,14,4,5,-1
+"Flores, Jason",3,15,3,4,-1
+"Flores, Jason",3,16,4,4,0
+"Flores, Jason",3,17,4,5,-1
+"Flores, Jason",3,18,4,3,1
+"Donatti, Pablo",3,1,5,5,0
+"Donatti, Pablo",3,2,3,4,-1
+"Donatti, Pablo",3,3,4,3,1
+"Donatti, Pablo",3,4,4,4,0
+"Donatti, Pablo",3,5,4,4,0
+"Donatti, Pablo",3,6,4,4,0
+"Donatti, Pablo",3,7,3,3,0
+"Donatti, Pablo",3,8,3,4,-1
+"Donatti, Pablo",3,9,4,5,-1
+"Donatti, Pablo",3,10,4,4,0
+"Donatti, Pablo",3,11,4,4,0
+"Donatti, Pablo",3,12,4,3,1
+"Donatti, Pablo",3,13,4,4,0
+"Donatti, Pablo",3,14,5,5,0
+"Donatti, Pablo",3,15,3,4,-1
+"Donatti, Pablo",3,16,3,4,-1
+"Donatti, Pablo",3,17,4,5,-1
+"Donatti, Pablo",3,18,3,3,0
+"Przybysz, Slawomir",3,1,4,5,-1
+"Przybysz, Slawomir",3,2,4,4,0
+"Przybysz, Slawomir",3,3,5,3,2
+"Przybysz, Slawomir",3,4,4,4,0
+"Przybysz, Slawomir",3,5,4,4,0
+"Przybysz, Slawomir",3,6,4,4,0
+"Przybysz, Slawomir",3,7,2,3,-1
+"Przybysz, Slawomir",3,8,4,4,0
+"Przybysz, Slawomir",3,9,5,5,0
+"Przybysz, Slawomir",3,10,5,4,1
+"Przybysz, Slawomir",3,11,4,4,0
+"Przybysz, Slawomir",3,12,4,3,1
+"Przybysz, Slawomir",3,13,4,4,0
+"Przybysz, Slawomir",3,14,5,5,0
+"Przybysz, Slawomir",3,15,4,4,0
+"Przybysz, Slawomir",3,16,4,4,0
+"Przybysz, Slawomir",3,17,6,5,1
+"Przybysz, Slawomir",3,18,4,3,1
+"Diaz, Fernando",3,1,4,5,-1
+"Diaz, Fernando",3,2,4,4,0
+"Diaz, Fernando",3,3,5,3,2
+"Diaz, Fernando",3,4,4,4,0
+"Diaz, Fernando",3,5,4,4,0
+"Diaz, Fernando",3,6,3,4,-1
+"Diaz, Fernando",3,7,3,3,0
+"Diaz, Fernando",3,8,4,4,0
+"Diaz, Fernando",3,9,5,5,0
+"Diaz, Fernando",3,10,4,4,0
+"Diaz, Fernando",3,11,6,4,2
+"Diaz, Fernando",3,12,2,3,-1
+"Diaz, Fernando",3,13,4,4,0
+"Diaz, Fernando",3,14,6,5,1
+"Diaz, Fernando",3,15,3,4,-1
+"Diaz, Fernando",3,16,3,4,-1
+"Diaz, Fernando",3,17,5,5,0
+"Diaz, Fernando",3,18,3,3,0
+"Sahm, Rob",3,1,4,5,-1
+"Sahm, Rob",3,2,4,4,0
+"Sahm, Rob",3,3,4,3,1
+"Sahm, Rob",3,4,4,4,0
+"Sahm, Rob",3,5,4,4,0
+"Sahm, Rob",3,6,4,4,0
+"Sahm, Rob",3,7,4,3,1
+"Sahm, Rob",3,8,4,4,0
+"Sahm, Rob",3,9,4,5,-1
+"Sahm, Rob",3,10,6,4,2
+"Sahm, Rob",3,11,4,4,0
+"Sahm, Rob",3,12,3,3,0
+"Sahm, Rob",3,13,4,4,0
+"Sahm, Rob",3,14,5,5,0
+"Sahm, Rob",3,15,4,4,0
+"Sahm, Rob",3,16,4,4,0
+"Sahm, Rob",3,17,4,5,-1
+"Sahm, Rob",3,18,3,3,0
+"Otsuka, Arihiro Eugene",3,1,5,5,0
+"Otsuka, Arihiro Eugene",3,2,5,4,1
+"Otsuka, Arihiro Eugene",3,3,4,3,1
+"Otsuka, Arihiro Eugene",3,4,5,4,1
+"Otsuka, Arihiro Eugene",3,5,4,4,0
+"Otsuka, Arihiro Eugene",3,6,4,4,0
+"Otsuka, Arihiro Eugene",3,7,3,3,0
+"Otsuka, Arihiro Eugene",3,8,4,4,0
+"Otsuka, Arihiro Eugene",3,9,5,5,0
+"Otsuka, Arihiro Eugene",3,10,4,4,0
+"Otsuka, Arihiro Eugene",3,11,4,4,0
+"Otsuka, Arihiro Eugene",3,12,3,3,0
+"Otsuka, Arihiro Eugene",3,13,4,4,0
+"Otsuka, Arihiro Eugene",3,14,5,5,0
+"Otsuka, Arihiro Eugene",3,15,4,4,0
+"Otsuka, Arihiro Eugene",3,16,4,4,0
+"Otsuka, Arihiro Eugene",3,17,6,5,1
+"Otsuka, Arihiro Eugene",3,18,3,3,0
+"Souza, Darrell",3,1,4,5,-1
+"Souza, Darrell",3,2,4,4,0
+"Souza, Darrell",3,3,4,3,1
+"Souza, Darrell",3,4,5,4,1
+"Souza, Darrell",3,5,4,4,0
+"Souza, Darrell",3,6,3,4,-1
+"Souza, Darrell",3,7,3,3,0
+"Souza, Darrell",3,8,5,4,1
+"Souza, Darrell",3,9,4,5,-1
+"Souza, Darrell",3,10,4,4,0
+"Souza, Darrell",3,11,5,4,1
+"Souza, Darrell",3,12,3,3,0
+"Souza, Darrell",3,13,4,4,0
+"Souza, Darrell",3,14,5,5,0
+"Souza, Darrell",3,15,4,4,0
+"Souza, Darrell",3,16,4,4,0
+"Souza, Darrell",3,17,4,5,-1
+"Souza, Darrell",3,18,3,3,0
+"Rudolph, Michael",3,1,4,5,-1
+"Rudolph, Michael",3,2,4,4,0
+"Rudolph, Michael",3,3,4,3,1
+"Rudolph, Michael",3,4,5,4,1
+"Rudolph, Michael",3,5,4,4,0
+"Rudolph, Michael",3,6,6,4,2
+"Rudolph, Michael",3,7,2,3,-1
+"Rudolph, Michael",3,8,4,4,0
+"Rudolph, Michael",3,9,4,5,-1
+"Rudolph, Michael",3,10,4,4,0
+"Rudolph, Michael",3,11,3,4,-1
+"Rudolph, Michael",3,12,4,3,1
+"Rudolph, Michael",3,13,4,4,0
+"Rudolph, Michael",3,14,5,5,0
+"Rudolph, Michael",3,15,4,4,0
+"Rudolph, Michael",3,16,4,4,0
+"Rudolph, Michael",3,17,4,5,-1
+"Rudolph, Michael",3,18,3,3,0
+"Blau, Rudolf",3,1,4,5,-1
+"Blau, Rudolf",3,2,4,4,0
+"Blau, Rudolf",3,3,3,3,0
+"Blau, Rudolf",3,4,4,4,0
+"Blau, Rudolf",3,5,4,4,0
+"Blau, Rudolf",3,6,4,4,0
+"Blau, Rudolf",3,7,3,3,0
+"Blau, Rudolf",3,8,4,4,0
+"Blau, Rudolf",3,9,4,5,-1
+"Blau, Rudolf",3,10,5,4,1
+"Blau, Rudolf",3,11,5,4,1
+"Blau, Rudolf",3,12,2,3,-1
+"Blau, Rudolf",3,13,4,4,0
+"Blau, Rudolf",3,14,3,5,-2
+"Blau, Rudolf",3,15,4,4,0
+"Blau, Rudolf",3,16,4,4,0
+"Blau, Rudolf",3,17,4,5,-1
+"Blau, Rudolf",3,18,5,3,2
+"Kelder, Kevin",3,1,4,5,-1
+"Kelder, Kevin",3,2,5,4,1
+"Kelder, Kevin",3,3,5,3,2
+"Kelder, Kevin",3,4,4,4,0
+"Kelder, Kevin",3,5,4,4,0
+"Kelder, Kevin",3,6,4,4,0
+"Kelder, Kevin",3,7,3,3,0
+"Kelder, Kevin",3,8,4,4,0
+"Kelder, Kevin",3,9,4,5,-1
+"Kelder, Kevin",3,10,4,4,0
+"Kelder, Kevin",3,11,4,4,0
+"Kelder, Kevin",3,12,3,3,0
+"Kelder, Kevin",3,13,4,4,0
+"Kelder, Kevin",3,14,6,5,1
+"Kelder, Kevin",3,15,4,4,0
+"Kelder, Kevin",3,16,5,4,1
+"Kelder, Kevin",3,17,5,5,0
+"Kelder, Kevin",3,18,3,3,0
+"Romano, Osvaldo Antonio",3,1,6,5,1
+"Romano, Osvaldo Antonio",3,2,4,4,0
+"Romano, Osvaldo Antonio",3,3,4,3,1
+"Romano, Osvaldo Antonio",3,4,5,4,1
+"Romano, Osvaldo Antonio",3,5,4,4,0
+"Romano, Osvaldo Antonio",3,6,4,4,0
+"Romano, Osvaldo Antonio",3,7,3,3,0
+"Romano, Osvaldo Antonio",3,8,5,4,1
+"Romano, Osvaldo Antonio",3,9,7,5,2
+"Romano, Osvaldo Antonio",3,10,4,4,0
+"Romano, Osvaldo Antonio",3,11,5,4,1
+"Romano, Osvaldo Antonio",3,12,5,3,2
+"Romano, Osvaldo Antonio",3,13,5,4,1
+"Romano, Osvaldo Antonio",3,14,6,5,1
+"Romano, Osvaldo Antonio",3,15,4,4,0
+"Romano, Osvaldo Antonio",3,16,5,4,1
+"Romano, Osvaldo Antonio",3,17,5,5,0
+"Romano, Osvaldo Antonio",3,18,4,3,1
+"Galimi, Andrew",3,1,6,5,1
+"Galimi, Andrew",3,2,4,4,0
+"Galimi, Andrew",3,3,4,3,1
+"Galimi, Andrew",3,4,6,4,2
+"Galimi, Andrew",3,5,6,4,2
+"Galimi, Andrew",3,6,4,4,0
+"Galimi, Andrew",3,7,4,3,1
+"Galimi, Andrew",3,8,4,4,0
+"Galimi, Andrew",3,9,5,5,0
+"Galimi, Andrew",3,10,4,4,0
+"Galimi, Andrew",3,11,3,4,-1
+"Galimi, Andrew",3,12,4,3,1
+"Galimi, Andrew",3,13,5,4,1
+"Galimi, Andrew",3,14,7,5,2
+"Galimi, Andrew",3,15,5,4,1
+"Galimi, Andrew",3,16,5,4,1
+"Galimi, Andrew",3,17,4,5,-1
+"Galimi, Andrew",3,18,3,3,0

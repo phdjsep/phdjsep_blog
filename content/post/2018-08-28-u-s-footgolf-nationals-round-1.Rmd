@@ -1,7 +1,7 @@
 ---
-title: "U.S. Footgolf Nationals - Rounds 1 and 2"
+title: "U.S. Footgolf Nationals Course Statistics"
 author: "Sep Dadsetan"
-date: 2018-08-28
+date: 2018-08-31
 output: html_document
 categories: ["Sports", "Footgolf"]
 tags: ["r-markdown", "footgolf", "afgl"]
@@ -49,6 +49,7 @@ scoring_table <- function(df, rd) {
 ```{r message=FALSE}
 scoring_table(scores_men, 1)
 scoring_table(scores_men, 2)
+scoring_table(scores_men, 3)
 ```
 
 ```{r message=FALSE}
@@ -81,6 +82,7 @@ ggplot(scores_men, aes(x=factor(hole), y=factor(score))) +
 ```{r message=FALSE}
 scoring_table(scores_women, 1)
 scoring_table(scores_women, 2)
+scoring_table(scores_women, 3)
 
 # Plot Scores
 ggplot(scores_women, aes(factor(score))) + 
@@ -109,6 +111,7 @@ ggplot(scores_women, aes(x=factor(hole), y=factor(score))) +
 ```{r message=FALSE}
 scoring_table(scores_seniors, 1)
 scoring_table(scores_seniors, 2)
+scoring_table(scores_seniors, 3)
 
 # Plot Scores
 ggplot(scores_seniors, aes(factor(score))) + 
