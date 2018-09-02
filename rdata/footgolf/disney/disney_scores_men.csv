@@ -1,0 +1,901 @@
+player,round,hole,strokes,par,score
+"Khatib, Ramzey",1,1,4,5,-1
+"Khatib, Ramzey",1,2,4,4,0
+"Khatib, Ramzey",1,3,3,3,0
+"Khatib, Ramzey",1,4,4,4,0
+"Khatib, Ramzey",1,5,4,4,0
+"Khatib, Ramzey",1,6,4,4,0
+"Khatib, Ramzey",1,7,5,5,0
+"Khatib, Ramzey",1,8,3,3,0
+"Khatib, Ramzey",1,9,3,4,-1
+"Khatib, Ramzey",1,10,4,4,0
+"Khatib, Ramzey",1,11,5,5,0
+"Khatib, Ramzey",1,12,3,3,0
+"Khatib, Ramzey",1,13,4,4,0
+"Khatib, Ramzey",1,14,5,5,0
+"Khatib, Ramzey",1,15,3,4,-1
+"Khatib, Ramzey",1,16,2,3,-1
+"Khatib, Ramzey",1,17,3,4,-1
+"Khatib, Ramzey",1,18,5,4,1
+"Perrone, Matias",1,1,5,5,0
+"Perrone, Matias",1,2,4,4,0
+"Perrone, Matias",1,3,2,3,-1
+"Perrone, Matias",1,4,4,4,0
+"Perrone, Matias",1,5,4,4,0
+"Perrone, Matias",1,6,3,4,-1
+"Perrone, Matias",1,7,4,5,-1
+"Perrone, Matias",1,8,3,3,0
+"Perrone, Matias",1,9,5,4,1
+"Perrone, Matias",1,10,3,4,-1
+"Perrone, Matias",1,11,4,5,-1
+"Perrone, Matias",1,12,3,3,0
+"Perrone, Matias",1,13,4,4,0
+"Perrone, Matias",1,14,5,5,0
+"Perrone, Matias",1,15,4,4,0
+"Perrone, Matias",1,16,3,3,0
+"Perrone, Matias",1,17,4,4,0
+"Perrone, Matias",1,18,4,4,0
+"Vazquez, Jorge",1,1,5,5,0
+"Vazquez, Jorge",1,2,3,4,-1
+"Vazquez, Jorge",1,3,3,3,0
+"Vazquez, Jorge",1,4,5,4,1
+"Vazquez, Jorge",1,5,4,4,0
+"Vazquez, Jorge",1,6,4,4,0
+"Vazquez, Jorge",1,7,5,5,0
+"Vazquez, Jorge",1,8,3,3,0
+"Vazquez, Jorge",1,9,3,4,-1
+"Vazquez, Jorge",1,10,3,4,-1
+"Vazquez, Jorge",1,11,6,5,1
+"Vazquez, Jorge",1,12,2,3,-1
+"Vazquez, Jorge",1,13,6,4,2
+"Vazquez, Jorge",1,14,5,5,0
+"Vazquez, Jorge",1,15,3,4,-1
+"Vazquez, Jorge",1,16,2,3,-1
+"Vazquez, Jorge",1,17,3,4,-1
+"Vazquez, Jorge",1,18,5,4,1
+"Olmedo, Sebastian Andres",1,1,5,5,0
+"Olmedo, Sebastian Andres",1,2,4,4,0
+"Olmedo, Sebastian Andres",1,3,3,3,0
+"Olmedo, Sebastian Andres",1,4,4,4,0
+"Olmedo, Sebastian Andres",1,5,4,4,0
+"Olmedo, Sebastian Andres",1,6,3,4,-1
+"Olmedo, Sebastian Andres",1,7,5,5,0
+"Olmedo, Sebastian Andres",1,8,3,3,0
+"Olmedo, Sebastian Andres",1,9,4,4,0
+"Olmedo, Sebastian Andres",1,10,2,4,-2
+"Olmedo, Sebastian Andres",1,11,6,5,1
+"Olmedo, Sebastian Andres",1,12,3,3,0
+"Olmedo, Sebastian Andres",1,13,4,4,0
+"Olmedo, Sebastian Andres",1,14,4,5,-1
+"Olmedo, Sebastian Andres",1,15,3,4,-1
+"Olmedo, Sebastian Andres",1,16,3,3,0
+"Olmedo, Sebastian Andres",1,17,5,4,1
+"Olmedo, Sebastian Andres",1,18,5,4,1
+"Calderon, Mario",1,1,5,5,0
+"Calderon, Mario",1,2,4,4,0
+"Calderon, Mario",1,3,2,3,-1
+"Calderon, Mario",1,4,5,4,1
+"Calderon, Mario",1,5,4,4,0
+"Calderon, Mario",1,6,5,4,1
+"Calderon, Mario",1,7,4,5,-1
+"Calderon, Mario",1,8,3,3,0
+"Calderon, Mario",1,9,4,4,0
+"Calderon, Mario",1,10,3,4,-1
+"Calderon, Mario",1,11,7,5,2
+"Calderon, Mario",1,12,2,3,-1
+"Calderon, Mario",1,13,3,4,-1
+"Calderon, Mario",1,14,7,5,2
+"Calderon, Mario",1,15,3,4,-1
+"Calderon, Mario",1,16,2,3,-1
+"Calderon, Mario",1,17,3,4,-1
+"Calderon, Mario",1,18,5,4,1
+"Menor, Piero",1,1,5,5,0
+"Menor, Piero",1,2,4,4,0
+"Menor, Piero",1,3,2,3,-1
+"Menor, Piero",1,4,5,4,1
+"Menor, Piero",1,5,4,4,0
+"Menor, Piero",1,6,4,4,0
+"Menor, Piero",1,7,5,5,0
+"Menor, Piero",1,8,3,3,0
+"Menor, Piero",1,9,4,4,0
+"Menor, Piero",1,10,3,4,-1
+"Menor, Piero",1,11,5,5,0
+"Menor, Piero",1,12,3,3,0
+"Menor, Piero",1,13,4,4,0
+"Menor, Piero",1,14,5,5,0
+"Menor, Piero",1,15,3,4,-1
+"Menor, Piero",1,16,3,3,0
+"Menor, Piero",1,17,4,4,0
+"Menor, Piero",1,18,5,4,1
+"Ayala, Roberto Fabian",1,1,5,5,0
+"Ayala, Roberto Fabian",1,2,4,4,0
+"Ayala, Roberto Fabian",1,3,2,3,-1
+"Ayala, Roberto Fabian",1,4,5,4,1
+"Ayala, Roberto Fabian",1,5,4,4,0
+"Ayala, Roberto Fabian",1,6,5,4,1
+"Ayala, Roberto Fabian",1,7,4,5,-1
+"Ayala, Roberto Fabian",1,8,3,3,0
+"Ayala, Roberto Fabian",1,9,3,4,-1
+"Ayala, Roberto Fabian",1,10,4,4,0
+"Ayala, Roberto Fabian",1,11,5,5,0
+"Ayala, Roberto Fabian",1,12,2,3,-1
+"Ayala, Roberto Fabian",1,13,4,4,0
+"Ayala, Roberto Fabian",1,14,5,5,0
+"Ayala, Roberto Fabian",1,15,3,4,-1
+"Ayala, Roberto Fabian",1,16,3,3,0
+"Ayala, Roberto Fabian",1,17,4,4,0
+"Ayala, Roberto Fabian",1,18,6,4,2
+"Khatib, Sharif",1,1,5,5,0
+"Khatib, Sharif",1,2,4,4,0
+"Khatib, Sharif",1,3,2,3,-1
+"Khatib, Sharif",1,4,5,4,1
+"Khatib, Sharif",1,5,4,4,0
+"Khatib, Sharif",1,6,4,4,0
+"Khatib, Sharif",1,7,5,5,0
+"Khatib, Sharif",1,8,3,3,0
+"Khatib, Sharif",1,9,5,4,1
+"Khatib, Sharif",1,10,4,4,0
+"Khatib, Sharif",1,11,5,5,0
+"Khatib, Sharif",1,12,2,3,-1
+"Khatib, Sharif",1,13,4,4,0
+"Khatib, Sharif",1,14,5,5,0
+"Khatib, Sharif",1,15,4,4,0
+"Khatib, Sharif",1,16,3,3,0
+"Khatib, Sharif",1,17,4,4,0
+"Khatib, Sharif",1,18,4,4,0
+"Godfrey, Jordan",1,1,5,5,0
+"Godfrey, Jordan",1,2,4,4,0
+"Godfrey, Jordan",1,3,4,3,1
+"Godfrey, Jordan",1,4,4,4,0
+"Godfrey, Jordan",1,5,4,4,0
+"Godfrey, Jordan",1,6,4,4,0
+"Godfrey, Jordan",1,7,5,5,0
+"Godfrey, Jordan",1,8,3,3,0
+"Godfrey, Jordan",1,9,4,4,0
+"Godfrey, Jordan",1,10,3,4,-1
+"Godfrey, Jordan",1,11,5,5,0
+"Godfrey, Jordan",1,12,2,3,-1
+"Godfrey, Jordan",1,13,4,4,0
+"Godfrey, Jordan",1,14,6,5,1
+"Godfrey, Jordan",1,15,3,4,-1
+"Godfrey, Jordan",1,16,3,3,0
+"Godfrey, Jordan",1,17,4,4,0
+"Godfrey, Jordan",1,18,5,4,1
+"Richardson, Nick",1,1,5,5,0
+"Richardson, Nick",1,2,5,4,1
+"Richardson, Nick",1,3,4,3,1
+"Richardson, Nick",1,4,5,4,1
+"Richardson, Nick",1,5,4,4,0
+"Richardson, Nick",1,6,3,4,-1
+"Richardson, Nick",1,7,4,5,-1
+"Richardson, Nick",1,8,4,3,1
+"Richardson, Nick",1,9,4,4,0
+"Richardson, Nick",1,10,4,4,0
+"Richardson, Nick",1,11,5,5,0
+"Richardson, Nick",1,12,3,3,0
+"Richardson, Nick",1,13,5,4,1
+"Richardson, Nick",1,14,4,5,-1
+"Richardson, Nick",1,15,3,4,-1
+"Richardson, Nick",1,16,2,3,-1
+"Richardson, Nick",1,17,4,4,0
+"Richardson, Nick",1,18,5,4,1
+"Godoy Marquez, Ivan",1,1,5,5,0
+"Godoy Marquez, Ivan",1,2,4,4,0
+"Godoy Marquez, Ivan",1,3,2,3,-1
+"Godoy Marquez, Ivan",1,4,5,4,1
+"Godoy Marquez, Ivan",1,5,4,4,0
+"Godoy Marquez, Ivan",1,6,4,4,0
+"Godoy Marquez, Ivan",1,7,6,5,1
+"Godoy Marquez, Ivan",1,8,3,3,0
+"Godoy Marquez, Ivan",1,9,4,4,0
+"Godoy Marquez, Ivan",1,10,4,4,0
+"Godoy Marquez, Ivan",1,11,6,5,1
+"Godoy Marquez, Ivan",1,12,3,3,0
+"Godoy Marquez, Ivan",1,13,4,4,0
+"Godoy Marquez, Ivan",1,14,5,5,0
+"Godoy Marquez, Ivan",1,15,3,4,-1
+"Godoy Marquez, Ivan",1,16,3,3,0
+"Godoy Marquez, Ivan",1,17,3,4,-1
+"Godoy Marquez, Ivan",1,18,5,4,1
+"Barron, Mario Cesar",1,1,5,5,0
+"Barron, Mario Cesar",1,2,4,4,0
+"Barron, Mario Cesar",1,3,3,3,0
+"Barron, Mario Cesar",1,4,4,4,0
+"Barron, Mario Cesar",1,5,5,4,1
+"Barron, Mario Cesar",1,6,5,4,1
+"Barron, Mario Cesar",1,7,4,5,-1
+"Barron, Mario Cesar",1,8,3,3,0
+"Barron, Mario Cesar",1,9,4,4,0
+"Barron, Mario Cesar",1,10,4,4,0
+"Barron, Mario Cesar",1,11,6,5,1
+"Barron, Mario Cesar",1,12,2,3,-1
+"Barron, Mario Cesar",1,13,3,4,-1
+"Barron, Mario Cesar",1,14,6,5,1
+"Barron, Mario Cesar",1,15,4,4,0
+"Barron, Mario Cesar",1,16,3,3,0
+"Barron, Mario Cesar",1,17,3,4,-1
+"Barron, Mario Cesar",1,18,5,4,1
+"Shuey, Nathan",1,1,5,5,0
+"Shuey, Nathan",1,2,4,4,0
+"Shuey, Nathan",1,3,2,3,-1
+"Shuey, Nathan",1,4,4,4,0
+"Shuey, Nathan",1,5,4,4,0
+"Shuey, Nathan",1,6,4,4,0
+"Shuey, Nathan",1,7,5,5,0
+"Shuey, Nathan",1,8,4,3,1
+"Shuey, Nathan",1,9,4,4,0
+"Shuey, Nathan",1,10,4,4,0
+"Shuey, Nathan",1,11,6,5,1
+"Shuey, Nathan",1,12,3,3,0
+"Shuey, Nathan",1,13,3,4,-1
+"Shuey, Nathan",1,14,7,5,2
+"Shuey, Nathan",1,15,3,4,-1
+"Shuey, Nathan",1,16,3,3,0
+"Shuey, Nathan",1,17,4,4,0
+"Shuey, Nathan",1,18,4,4,0
+"Reidt, Chris",1,1,5,5,0
+"Reidt, Chris",1,2,4,4,0
+"Reidt, Chris",1,3,3,3,0
+"Reidt, Chris",1,4,4,4,0
+"Reidt, Chris",1,5,4,4,0
+"Reidt, Chris",1,6,3,4,-1
+"Reidt, Chris",1,7,5,5,0
+"Reidt, Chris",1,8,3,3,0
+"Reidt, Chris",1,9,5,4,1
+"Reidt, Chris",1,10,5,4,1
+"Reidt, Chris",1,11,5,5,0
+"Reidt, Chris",1,12,2,3,-1
+"Reidt, Chris",1,13,4,4,0
+"Reidt, Chris",1,14,5,5,0
+"Reidt, Chris",1,15,4,4,0
+"Reidt, Chris",1,16,3,3,0
+"Reidt, Chris",1,17,4,4,0
+"Reidt, Chris",1,18,5,4,1
+"Baldini, Davide",1,1,6,5,1
+"Baldini, Davide",1,2,4,4,0
+"Baldini, Davide",1,3,2,3,-1
+"Baldini, Davide",1,4,5,4,1
+"Baldini, Davide",1,5,4,4,0
+"Baldini, Davide",1,6,3,4,-1
+"Baldini, Davide",1,7,5,5,0
+"Baldini, Davide",1,8,3,3,0
+"Baldini, Davide",1,9,4,4,0
+"Baldini, Davide",1,10,4,4,0
+"Baldini, Davide",1,11,5,5,0
+"Baldini, Davide",1,12,2,3,-1
+"Baldini, Davide",1,13,4,4,0
+"Baldini, Davide",1,14,6,5,1
+"Baldini, Davide",1,15,4,4,0
+"Baldini, Davide",1,16,3,3,0
+"Baldini, Davide",1,17,4,4,0
+"Baldini, Davide",1,18,5,4,1
+"Barragan, Osvaldo",1,1,5,5,0
+"Barragan, Osvaldo",1,2,4,4,0
+"Barragan, Osvaldo",1,3,3,3,0
+"Barragan, Osvaldo",1,4,5,4,1
+"Barragan, Osvaldo",1,5,4,4,0
+"Barragan, Osvaldo",1,6,6,4,2
+"Barragan, Osvaldo",1,7,6,5,1
+"Barragan, Osvaldo",1,8,3,3,0
+"Barragan, Osvaldo",1,9,3,4,-1
+"Barragan, Osvaldo",1,10,4,4,0
+"Barragan, Osvaldo",1,11,6,5,1
+"Barragan, Osvaldo",1,12,3,3,0
+"Barragan, Osvaldo",1,13,4,4,0
+"Barragan, Osvaldo",1,14,4,5,-1
+"Barragan, Osvaldo",1,15,4,4,0
+"Barragan, Osvaldo",1,16,2,3,-1
+"Barragan, Osvaldo",1,17,4,4,0
+"Barragan, Osvaldo",1,18,4,4,0
+"Hittle, William",1,1,5,5,0
+"Hittle, William",1,2,5,4,1
+"Hittle, William",1,3,3,3,0
+"Hittle, William",1,4,4,4,0
+"Hittle, William",1,5,5,4,1
+"Hittle, William",1,6,4,4,0
+"Hittle, William",1,7,4,5,-1
+"Hittle, William",1,8,4,3,1
+"Hittle, William",1,9,5,4,1
+"Hittle, William",1,10,4,4,0
+"Hittle, William",1,11,5,5,0
+"Hittle, William",1,12,3,3,0
+"Hittle, William",1,13,4,4,0
+"Hittle, William",1,14,5,5,0
+"Hittle, William",1,15,3,4,-1
+"Hittle, William",1,16,3,3,0
+"Hittle, William",1,17,4,4,0
+"Hittle, William",1,18,4,4,0
+"Garcia, Nicolas",1,1,5,5,0
+"Garcia, Nicolas",1,2,5,4,1
+"Garcia, Nicolas",1,3,3,3,0
+"Garcia, Nicolas",1,4,5,4,1
+"Garcia, Nicolas",1,5,4,4,0
+"Garcia, Nicolas",1,6,4,4,0
+"Garcia, Nicolas",1,7,5,5,0
+"Garcia, Nicolas",1,8,3,3,0
+"Garcia, Nicolas",1,9,4,4,0
+"Garcia, Nicolas",1,10,3,4,-1
+"Garcia, Nicolas",1,11,6,5,1
+"Garcia, Nicolas",1,12,2,3,-1
+"Garcia, Nicolas",1,13,4,4,0
+"Garcia, Nicolas",1,14,4,5,-1
+"Garcia, Nicolas",1,15,4,4,0
+"Garcia, Nicolas",1,16,5,3,2
+"Garcia, Nicolas",1,17,4,4,0
+"Garcia, Nicolas",1,18,4,4,0
+"Wallace, Nick",1,1,5,5,0
+"Wallace, Nick",1,2,4,4,0
+"Wallace, Nick",1,3,2,3,-1
+"Wallace, Nick",1,4,5,4,1
+"Wallace, Nick",1,5,5,4,1
+"Wallace, Nick",1,6,4,4,0
+"Wallace, Nick",1,7,5,5,0
+"Wallace, Nick",1,8,3,3,0
+"Wallace, Nick",1,9,4,4,0
+"Wallace, Nick",1,10,4,4,0
+"Wallace, Nick",1,11,4,5,-1
+"Wallace, Nick",1,12,2,3,-1
+"Wallace, Nick",1,13,3,4,-1
+"Wallace, Nick",1,14,6,5,1
+"Wallace, Nick",1,15,5,4,1
+"Wallace, Nick",1,16,3,3,0
+"Wallace, Nick",1,17,4,4,0
+"Wallace, Nick",1,18,6,4,2
+"Loustau, Lucas",1,1,6,5,1
+"Loustau, Lucas",1,2,4,4,0
+"Loustau, Lucas",1,3,4,3,1
+"Loustau, Lucas",1,4,5,4,1
+"Loustau, Lucas",1,5,5,4,1
+"Loustau, Lucas",1,6,4,4,0
+"Loustau, Lucas",1,7,5,5,0
+"Loustau, Lucas",1,8,4,3,1
+"Loustau, Lucas",1,9,4,4,0
+"Loustau, Lucas",1,10,3,4,-1
+"Loustau, Lucas",1,11,5,5,0
+"Loustau, Lucas",1,12,3,3,0
+"Loustau, Lucas",1,13,4,4,0
+"Loustau, Lucas",1,14,5,5,0
+"Loustau, Lucas",1,15,3,4,-1
+"Loustau, Lucas",1,16,3,3,0
+"Loustau, Lucas",1,17,3,4,-1
+"Loustau, Lucas",1,18,5,4,1
+"Herz, Mark",1,1,5,5,0
+"Herz, Mark",1,2,4,4,0
+"Herz, Mark",1,3,3,3,0
+"Herz, Mark",1,4,5,4,1
+"Herz, Mark",1,5,5,4,1
+"Herz, Mark",1,6,4,4,0
+"Herz, Mark",1,7,5,5,0
+"Herz, Mark",1,8,3,3,0
+"Herz, Mark",1,9,5,4,1
+"Herz, Mark",1,10,3,4,-1
+"Herz, Mark",1,11,5,5,0
+"Herz, Mark",1,12,3,3,0
+"Herz, Mark",1,13,4,4,0
+"Herz, Mark",1,14,5,5,0
+"Herz, Mark",1,15,4,4,0
+"Herz, Mark",1,16,3,3,0
+"Herz, Mark",1,17,4,4,0
+"Herz, Mark",1,18,5,4,1
+"Damian, Battaglia",1,1,5,5,0
+"Damian, Battaglia",1,2,5,4,1
+"Damian, Battaglia",1,3,4,3,1
+"Damian, Battaglia",1,4,5,4,1
+"Damian, Battaglia",1,5,4,4,0
+"Damian, Battaglia",1,6,3,4,-1
+"Damian, Battaglia",1,7,5,5,0
+"Damian, Battaglia",1,8,3,3,0
+"Damian, Battaglia",1,9,4,4,0
+"Damian, Battaglia",1,10,4,4,0
+"Damian, Battaglia",1,11,6,5,1
+"Damian, Battaglia",1,12,3,3,0
+"Damian, Battaglia",1,13,4,4,0
+"Damian, Battaglia",1,14,5,5,0
+"Damian, Battaglia",1,15,4,4,0
+"Damian, Battaglia",1,16,3,3,0
+"Damian, Battaglia",1,17,3,4,-1
+"Damian, Battaglia",1,18,5,4,1
+"McNamara, Sean",1,1,6,5,1
+"McNamara, Sean",1,2,5,4,1
+"McNamara, Sean",1,3,2,3,-1
+"McNamara, Sean",1,4,5,4,1
+"McNamara, Sean",1,5,4,4,0
+"McNamara, Sean",1,6,4,4,0
+"McNamara, Sean",1,7,5,5,0
+"McNamara, Sean",1,8,3,3,0
+"McNamara, Sean",1,9,4,4,0
+"McNamara, Sean",1,10,4,4,0
+"McNamara, Sean",1,11,5,5,0
+"McNamara, Sean",1,12,3,3,0
+"McNamara, Sean",1,13,5,4,1
+"McNamara, Sean",1,14,5,5,0
+"McNamara, Sean",1,15,4,4,0
+"McNamara, Sean",1,16,2,3,-1
+"McNamara, Sean",1,17,4,4,0
+"McNamara, Sean",1,18,5,4,1
+"Matteoli, Richard Zak",1,1,5,5,0
+"Matteoli, Richard Zak",1,2,4,4,0
+"Matteoli, Richard Zak",1,3,3,3,0
+"Matteoli, Richard Zak",1,4,4,4,0
+"Matteoli, Richard Zak",1,5,5,4,1
+"Matteoli, Richard Zak",1,6,3,4,-1
+"Matteoli, Richard Zak",1,7,5,5,0
+"Matteoli, Richard Zak",1,8,4,3,1
+"Matteoli, Richard Zak",1,9,4,4,0
+"Matteoli, Richard Zak",1,10,4,4,0
+"Matteoli, Richard Zak",1,11,6,5,1
+"Matteoli, Richard Zak",1,12,3,3,0
+"Matteoli, Richard Zak",1,13,6,4,2
+"Matteoli, Richard Zak",1,14,6,5,1
+"Matteoli, Richard Zak",1,15,3,4,-1
+"Matteoli, Richard Zak",1,16,2,3,-1
+"Matteoli, Richard Zak",1,17,4,4,0
+"Matteoli, Richard Zak",1,18,4,4,0
+"Sherman, Brian",1,1,6,5,1
+"Sherman, Brian",1,2,4,4,0
+"Sherman, Brian",1,3,3,3,0
+"Sherman, Brian",1,4,5,4,1
+"Sherman, Brian",1,5,4,4,0
+"Sherman, Brian",1,6,4,4,0
+"Sherman, Brian",1,7,4,5,-1
+"Sherman, Brian",1,8,3,3,0
+"Sherman, Brian",1,9,4,4,0
+"Sherman, Brian",1,10,4,4,0
+"Sherman, Brian",1,11,5,5,0
+"Sherman, Brian",1,12,3,3,0
+"Sherman, Brian",1,13,4,4,0
+"Sherman, Brian",1,14,5,5,0
+"Sherman, Brian",1,15,4,4,0
+"Sherman, Brian",1,16,3,3,0
+"Sherman, Brian",1,17,5,4,1
+"Sherman, Brian",1,18,5,4,1
+"Hartman, Ryan",1,1,6,5,1
+"Hartman, Ryan",1,2,4,4,0
+"Hartman, Ryan",1,3,3,3,0
+"Hartman, Ryan",1,4,4,4,0
+"Hartman, Ryan",1,5,5,4,1
+"Hartman, Ryan",1,6,4,4,0
+"Hartman, Ryan",1,7,7,5,2
+"Hartman, Ryan",1,8,3,3,0
+"Hartman, Ryan",1,9,4,4,0
+"Hartman, Ryan",1,10,4,4,0
+"Hartman, Ryan",1,11,6,5,1
+"Hartman, Ryan",1,12,2,3,-1
+"Hartman, Ryan",1,13,5,4,1
+"Hartman, Ryan",1,14,4,5,-1
+"Hartman, Ryan",1,15,4,4,0
+"Hartman, Ryan",1,16,4,3,1
+"Hartman, Ryan",1,17,3,4,-1
+"Hartman, Ryan",1,18,4,4,0
+"Barragan, Luis",1,1,5,5,0
+"Barragan, Luis",1,2,5,4,1
+"Barragan, Luis",1,3,3,3,0
+"Barragan, Luis",1,4,4,4,0
+"Barragan, Luis",1,5,4,4,0
+"Barragan, Luis",1,6,5,4,1
+"Barragan, Luis",1,7,5,5,0
+"Barragan, Luis",1,8,4,3,1
+"Barragan, Luis",1,9,4,4,0
+"Barragan, Luis",1,10,4,4,0
+"Barragan, Luis",1,11,6,5,1
+"Barragan, Luis",1,12,2,3,-1
+"Barragan, Luis",1,13,4,4,0
+"Barragan, Luis",1,14,6,5,1
+"Barragan, Luis",1,15,3,4,-1
+"Barragan, Luis",1,16,3,3,0
+"Barragan, Luis",1,17,4,4,0
+"Barragan, Luis",1,18,5,4,1
+"Yepez, Julio",1,1,5,5,0
+"Yepez, Julio",1,2,5,4,1
+"Yepez, Julio",1,3,3,3,0
+"Yepez, Julio",1,4,5,4,1
+"Yepez, Julio",1,5,4,4,0
+"Yepez, Julio",1,6,3,4,-1
+"Yepez, Julio",1,7,5,5,0
+"Yepez, Julio",1,8,3,3,0
+"Yepez, Julio",1,9,4,4,0
+"Yepez, Julio",1,10,4,4,0
+"Yepez, Julio",1,11,5,5,0
+"Yepez, Julio",1,12,3,3,0
+"Yepez, Julio",1,13,4,4,0
+"Yepez, Julio",1,14,6,5,1
+"Yepez, Julio",1,15,4,4,0
+"Yepez, Julio",1,16,4,3,1
+"Yepez, Julio",1,17,4,4,0
+"Yepez, Julio",1,18,5,4,1
+"Fulling, Bryan",1,1,5,5,0
+"Fulling, Bryan",1,2,4,4,0
+"Fulling, Bryan",1,3,2,3,-1
+"Fulling, Bryan",1,4,5,4,1
+"Fulling, Bryan",1,5,5,4,1
+"Fulling, Bryan",1,6,4,4,0
+"Fulling, Bryan",1,7,5,5,0
+"Fulling, Bryan",1,8,4,3,1
+"Fulling, Bryan",1,9,7,4,3
+"Fulling, Bryan",1,10,4,4,0
+"Fulling, Bryan",1,11,6,5,1
+"Fulling, Bryan",1,12,3,3,0
+"Fulling, Bryan",1,13,4,4,0
+"Fulling, Bryan",1,14,5,5,0
+"Fulling, Bryan",1,15,3,4,-1
+"Fulling, Bryan",1,16,2,3,-1
+"Fulling, Bryan",1,17,4,4,0
+"Fulling, Bryan",1,18,5,4,1
+"Pugh, Chandler",1,1,5,5,0
+"Pugh, Chandler",1,2,4,4,0
+"Pugh, Chandler",1,3,4,3,1
+"Pugh, Chandler",1,4,5,4,1
+"Pugh, Chandler",1,5,6,4,2
+"Pugh, Chandler",1,6,4,4,0
+"Pugh, Chandler",1,7,5,5,0
+"Pugh, Chandler",1,8,3,3,0
+"Pugh, Chandler",1,9,6,4,2
+"Pugh, Chandler",1,10,4,4,0
+"Pugh, Chandler",1,11,6,5,1
+"Pugh, Chandler",1,12,3,3,0
+"Pugh, Chandler",1,13,4,4,0
+"Pugh, Chandler",1,14,4,5,-1
+"Pugh, Chandler",1,15,5,4,1
+"Pugh, Chandler",1,16,3,3,0
+"Pugh, Chandler",1,17,4,4,0
+"Pugh, Chandler",1,18,4,4,0
+"Bicerne, Eduardo",1,1,5,5,0
+"Bicerne, Eduardo",1,2,5,4,1
+"Bicerne, Eduardo",1,3,4,3,1
+"Bicerne, Eduardo",1,4,5,4,1
+"Bicerne, Eduardo",1,5,5,4,1
+"Bicerne, Eduardo",1,6,4,4,0
+"Bicerne, Eduardo",1,7,5,5,0
+"Bicerne, Eduardo",1,8,4,3,1
+"Bicerne, Eduardo",1,9,4,4,0
+"Bicerne, Eduardo",1,10,5,4,1
+"Bicerne, Eduardo",1,11,6,5,1
+"Bicerne, Eduardo",1,12,3,3,0
+"Bicerne, Eduardo",1,13,4,4,0
+"Bicerne, Eduardo",1,14,4,5,-1
+"Bicerne, Eduardo",1,15,4,4,0
+"Bicerne, Eduardo",1,16,3,3,0
+"Bicerne, Eduardo",1,17,4,4,0
+"Bicerne, Eduardo",1,18,5,4,1
+"Montano, Fabio",1,1,6,5,1
+"Montano, Fabio",1,2,5,4,1
+"Montano, Fabio",1,3,4,3,1
+"Montano, Fabio",1,4,5,4,1
+"Montano, Fabio",1,5,4,4,0
+"Montano, Fabio",1,6,3,4,-1
+"Montano, Fabio",1,7,5,5,0
+"Montano, Fabio",1,8,4,3,1
+"Montano, Fabio",1,9,5,4,1
+"Montano, Fabio",1,10,3,4,-1
+"Montano, Fabio",1,11,6,5,1
+"Montano, Fabio",1,12,3,3,0
+"Montano, Fabio",1,13,4,4,0
+"Montano, Fabio",1,14,5,5,0
+"Montano, Fabio",1,15,4,4,0
+"Montano, Fabio",1,16,4,3,1
+"Montano, Fabio",1,17,4,4,0
+"Montano, Fabio",1,18,5,4,1
+"Moorefield, Sebastian",1,1,5,5,0
+"Moorefield, Sebastian",1,2,4,4,0
+"Moorefield, Sebastian",1,3,3,3,0
+"Moorefield, Sebastian",1,4,4,4,0
+"Moorefield, Sebastian",1,5,4,4,0
+"Moorefield, Sebastian",1,6,6,4,2
+"Moorefield, Sebastian",1,7,5,5,0
+"Moorefield, Sebastian",1,8,4,3,1
+"Moorefield, Sebastian",1,9,5,4,1
+"Moorefield, Sebastian",1,10,4,4,0
+"Moorefield, Sebastian",1,11,6,5,1
+"Moorefield, Sebastian",1,12,4,3,1
+"Moorefield, Sebastian",1,13,4,4,0
+"Moorefield, Sebastian",1,14,5,5,0
+"Moorefield, Sebastian",1,15,4,4,0
+"Moorefield, Sebastian",1,16,3,3,0
+"Moorefield, Sebastian",1,17,4,4,0
+"Moorefield, Sebastian",1,18,5,4,1
+"Bhasin, Gurmukh",1,1,6,5,1
+"Bhasin, Gurmukh",1,2,4,4,0
+"Bhasin, Gurmukh",1,3,4,3,1
+"Bhasin, Gurmukh",1,4,4,4,0
+"Bhasin, Gurmukh",1,5,4,4,0
+"Bhasin, Gurmukh",1,6,4,4,0
+"Bhasin, Gurmukh",1,7,4,5,-1
+"Bhasin, Gurmukh",1,8,3,3,0
+"Bhasin, Gurmukh",1,9,6,4,2
+"Bhasin, Gurmukh",1,10,5,4,1
+"Bhasin, Gurmukh",1,11,6,5,1
+"Bhasin, Gurmukh",1,12,3,3,0
+"Bhasin, Gurmukh",1,13,4,4,0
+"Bhasin, Gurmukh",1,14,5,5,0
+"Bhasin, Gurmukh",1,15,4,4,0
+"Bhasin, Gurmukh",1,16,3,3,0
+"Bhasin, Gurmukh",1,17,4,4,0
+"Bhasin, Gurmukh",1,18,6,4,2
+"Copello, Mariano",1,1,6,5,1
+"Copello, Mariano",1,2,4,4,0
+"Copello, Mariano",1,3,3,3,0
+"Copello, Mariano",1,4,4,4,0
+"Copello, Mariano",1,5,4,4,0
+"Copello, Mariano",1,6,3,4,-1
+"Copello, Mariano",1,7,5,5,0
+"Copello, Mariano",1,8,5,3,2
+"Copello, Mariano",1,9,5,4,1
+"Copello, Mariano",1,10,4,4,0
+"Copello, Mariano",1,11,6,5,1
+"Copello, Mariano",1,12,3,3,0
+"Copello, Mariano",1,13,3,4,-1
+"Copello, Mariano",1,14,8,5,3
+"Copello, Mariano",1,15,4,4,0
+"Copello, Mariano",1,16,3,3,0
+"Copello, Mariano",1,17,4,4,0
+"Copello, Mariano",1,18,5,4,1
+"Perez, Gaston",1,1,5,5,0
+"Perez, Gaston",1,2,4,4,0
+"Perez, Gaston",1,3,3,3,0
+"Perez, Gaston",1,4,5,4,1
+"Perez, Gaston",1,5,4,4,0
+"Perez, Gaston",1,6,4,4,0
+"Perez, Gaston",1,7,6,5,1
+"Perez, Gaston",1,8,4,3,1
+"Perez, Gaston",1,9,4,4,0
+"Perez, Gaston",1,10,4,4,0
+"Perez, Gaston",1,11,5,5,0
+"Perez, Gaston",1,12,4,3,1
+"Perez, Gaston",1,13,4,4,0
+"Perez, Gaston",1,14,6,5,1
+"Perez, Gaston",1,15,4,4,0
+"Perez, Gaston",1,16,3,3,0
+"Perez, Gaston",1,17,4,4,0
+"Perez, Gaston",1,18,6,4,2
+"Aron, Jon",1,1,6,5,1
+"Aron, Jon",1,2,5,4,1
+"Aron, Jon",1,3,4,3,1
+"Aron, Jon",1,4,5,4,1
+"Aron, Jon",1,5,5,4,1
+"Aron, Jon",1,6,4,4,0
+"Aron, Jon",1,7,6,5,1
+"Aron, Jon",1,8,3,3,0
+"Aron, Jon",1,9,5,4,1
+"Aron, Jon",1,10,4,4,0
+"Aron, Jon",1,11,6,5,1
+"Aron, Jon",1,12,3,3,0
+"Aron, Jon",1,13,3,4,-1
+"Aron, Jon",1,14,5,5,0
+"Aron, Jon",1,15,4,4,0
+"Aron, Jon",1,16,2,3,-1
+"Aron, Jon",1,17,5,4,1
+"Aron, Jon",1,18,5,4,1
+"Martinez Santos, Tomas Alejandro",1,1,5,5,0
+"Martinez Santos, Tomas Alejandro",1,2,5,4,1
+"Martinez Santos, Tomas Alejandro",1,3,3,3,0
+"Martinez Santos, Tomas Alejandro",1,4,5,4,1
+"Martinez Santos, Tomas Alejandro",1,5,5,4,1
+"Martinez Santos, Tomas Alejandro",1,6,5,4,1
+"Martinez Santos, Tomas Alejandro",1,7,5,5,0
+"Martinez Santos, Tomas Alejandro",1,8,4,3,1
+"Martinez Santos, Tomas Alejandro",1,9,5,4,1
+"Martinez Santos, Tomas Alejandro",1,10,5,4,1
+"Martinez Santos, Tomas Alejandro",1,11,5,5,0
+"Martinez Santos, Tomas Alejandro",1,12,3,3,0
+"Martinez Santos, Tomas Alejandro",1,13,4,4,0
+"Martinez Santos, Tomas Alejandro",1,14,3,5,-2
+"Martinez Santos, Tomas Alejandro",1,15,4,4,0
+"Martinez Santos, Tomas Alejandro",1,16,4,3,1
+"Martinez Santos, Tomas Alejandro",1,17,4,4,0
+"Martinez Santos, Tomas Alejandro",1,18,6,4,2
+"Johnson, Jeremy",1,1,6,5,1
+"Johnson, Jeremy",1,2,4,4,0
+"Johnson, Jeremy",1,3,3,3,0
+"Johnson, Jeremy",1,4,5,4,1
+"Johnson, Jeremy",1,5,4,4,0
+"Johnson, Jeremy",1,6,5,4,1
+"Johnson, Jeremy",1,7,6,5,1
+"Johnson, Jeremy",1,8,4,3,1
+"Johnson, Jeremy",1,9,4,4,0
+"Johnson, Jeremy",1,10,4,4,0
+"Johnson, Jeremy",1,11,5,5,0
+"Johnson, Jeremy",1,12,4,3,1
+"Johnson, Jeremy",1,13,4,4,0
+"Johnson, Jeremy",1,14,6,5,1
+"Johnson, Jeremy",1,15,4,4,0
+"Johnson, Jeremy",1,16,3,3,0
+"Johnson, Jeremy",1,17,4,4,0
+"Johnson, Jeremy",1,18,5,4,1
+"Joyce, Damien",1,1,6,5,1
+"Joyce, Damien",1,2,4,4,0
+"Joyce, Damien",1,3,3,3,0
+"Joyce, Damien",1,4,5,4,1
+"Joyce, Damien",1,5,5,4,1
+"Joyce, Damien",1,6,6,4,2
+"Joyce, Damien",1,7,5,5,0
+"Joyce, Damien",1,8,4,3,1
+"Joyce, Damien",1,9,5,4,1
+"Joyce, Damien",1,10,5,4,1
+"Joyce, Damien",1,11,6,5,1
+"Joyce, Damien",1,12,2,3,-1
+"Joyce, Damien",1,13,4,4,0
+"Joyce, Damien",1,14,5,5,0
+"Joyce, Damien",1,15,4,4,0
+"Joyce, Damien",1,16,3,3,0
+"Joyce, Damien",1,17,4,4,0
+"Joyce, Damien",1,18,5,4,1
+"Morales, Cristian",1,1,6,5,1
+"Morales, Cristian",1,2,3,4,-1
+"Morales, Cristian",1,3,2,3,-1
+"Morales, Cristian",1,4,6,4,2
+"Morales, Cristian",1,5,5,4,1
+"Morales, Cristian",1,6,5,4,1
+"Morales, Cristian",1,7,6,5,1
+"Morales, Cristian",1,8,4,3,1
+"Morales, Cristian",1,9,4,4,0
+"Morales, Cristian",1,10,4,4,0
+"Morales, Cristian",1,11,5,5,0
+"Morales, Cristian",1,12,3,3,0
+"Morales, Cristian",1,13,5,4,1
+"Morales, Cristian",1,14,7,5,2
+"Morales, Cristian",1,15,4,4,0
+"Morales, Cristian",1,16,3,3,0
+"Morales, Cristian",1,17,4,4,0
+"Morales, Cristian",1,18,5,4,1
+"Perri, James",1,1,6,5,1
+"Perri, James",1,2,5,4,1
+"Perri, James",1,3,3,3,0
+"Perri, James",1,4,5,4,1
+"Perri, James",1,5,5,4,1
+"Perri, James",1,6,4,4,0
+"Perri, James",1,7,6,5,1
+"Perri, James",1,8,4,3,1
+"Perri, James",1,9,5,4,1
+"Perri, James",1,10,5,4,1
+"Perri, James",1,11,6,5,1
+"Perri, James",1,12,2,3,-1
+"Perri, James",1,13,4,4,0
+"Perri, James",1,14,6,5,1
+"Perri, James",1,15,4,4,0
+"Perri, James",1,16,3,3,0
+"Perri, James",1,17,4,4,0
+"Perri, James",1,18,5,4,1
+"Adalsteinsson, Thor",1,1,6,5,1
+"Adalsteinsson, Thor",1,2,5,4,1
+"Adalsteinsson, Thor",1,3,3,3,0
+"Adalsteinsson, Thor",1,4,5,4,1
+"Adalsteinsson, Thor",1,5,4,4,0
+"Adalsteinsson, Thor",1,6,3,4,-1
+"Adalsteinsson, Thor",1,7,6,5,1
+"Adalsteinsson, Thor",1,8,3,3,0
+"Adalsteinsson, Thor",1,9,4,4,0
+"Adalsteinsson, Thor",1,10,4,4,0
+"Adalsteinsson, Thor",1,11,7,5,2
+"Adalsteinsson, Thor",1,12,3,3,0
+"Adalsteinsson, Thor",1,13,4,4,0
+"Adalsteinsson, Thor",1,14,5,5,0
+"Adalsteinsson, Thor",1,15,5,4,1
+"Adalsteinsson, Thor",1,16,4,3,1
+"Adalsteinsson, Thor",1,17,5,4,1
+"Adalsteinsson, Thor",1,18,6,4,2
+"Donahoo, Korey",1,1,6,5,1
+"Donahoo, Korey",1,2,4,4,0
+"Donahoo, Korey",1,3,5,3,2
+"Donahoo, Korey",1,4,6,4,2
+"Donahoo, Korey",1,5,5,4,1
+"Donahoo, Korey",1,6,4,4,0
+"Donahoo, Korey",1,7,6,5,1
+"Donahoo, Korey",1,8,4,3,1
+"Donahoo, Korey",1,9,4,4,0
+"Donahoo, Korey",1,10,4,4,0
+"Donahoo, Korey",1,11,6,5,1
+"Donahoo, Korey",1,12,3,3,0
+"Donahoo, Korey",1,13,4,4,0
+"Donahoo, Korey",1,14,5,5,0
+"Donahoo, Korey",1,15,5,4,1
+"Donahoo, Korey",1,16,2,3,-1
+"Donahoo, Korey",1,17,5,4,1
+"Donahoo, Korey",1,18,5,4,1
+"Aron, Kyle",1,1,5,5,0
+"Aron, Kyle",1,2,4,4,0
+"Aron, Kyle",1,3,4,3,1
+"Aron, Kyle",1,4,4,4,0
+"Aron, Kyle",1,5,7,4,3
+"Aron, Kyle",1,6,4,4,0
+"Aron, Kyle",1,7,5,5,0
+"Aron, Kyle",1,8,4,3,1
+"Aron, Kyle",1,9,5,4,1
+"Aron, Kyle",1,10,5,4,1
+"Aron, Kyle",1,11,6,5,1
+"Aron, Kyle",1,12,3,3,0
+"Aron, Kyle",1,13,5,4,1
+"Aron, Kyle",1,14,6,5,1
+"Aron, Kyle",1,15,5,4,1
+"Aron, Kyle",1,16,3,3,0
+"Aron, Kyle",1,17,3,4,-1
+"Aron, Kyle",1,18,5,4,1
+"Hood, Alex",1,1,7,5,2
+"Hood, Alex",1,2,4,4,0
+"Hood, Alex",1,3,3,3,0
+"Hood, Alex",1,4,4,4,0
+"Hood, Alex",1,5,5,4,1
+"Hood, Alex",1,6,4,4,0
+"Hood, Alex",1,7,4,5,-1
+"Hood, Alex",1,8,4,3,1
+"Hood, Alex",1,9,4,4,0
+"Hood, Alex",1,10,5,4,1
+"Hood, Alex",1,11,7,5,2
+"Hood, Alex",1,12,2,3,-1
+"Hood, Alex",1,13,4,4,0
+"Hood, Alex",1,14,7,5,2
+"Hood, Alex",1,15,5,4,1
+"Hood, Alex",1,16,3,3,0
+"Hood, Alex",1,17,5,4,1
+"Hood, Alex",1,18,7,4,3
+"Sutherland, Shaun",1,1,6,5,1
+"Sutherland, Shaun",1,2,5,4,1
+"Sutherland, Shaun",1,3,5,3,2
+"Sutherland, Shaun",1,4,4,4,0
+"Sutherland, Shaun",1,5,4,4,0
+"Sutherland, Shaun",1,6,6,4,2
+"Sutherland, Shaun",1,7,6,5,1
+"Sutherland, Shaun",1,8,4,3,1
+"Sutherland, Shaun",1,9,5,4,1
+"Sutherland, Shaun",1,10,3,4,-1
+"Sutherland, Shaun",1,11,5,5,0
+"Sutherland, Shaun",1,12,4,3,1
+"Sutherland, Shaun",1,13,4,4,0
+"Sutherland, Shaun",1,14,8,5,3
+"Sutherland, Shaun",1,15,5,4,1
+"Sutherland, Shaun",1,16,3,3,0
+"Sutherland, Shaun",1,17,4,4,0
+"Sutherland, Shaun",1,18,5,4,1
+"Peters, Lloyd",1,1,6,5,1
+"Peters, Lloyd",1,2,5,4,1
+"Peters, Lloyd",1,3,4,3,1
+"Peters, Lloyd",1,4,5,4,1
+"Peters, Lloyd",1,5,5,4,1
+"Peters, Lloyd",1,6,4,4,0
+"Peters, Lloyd",1,7,6,5,1
+"Peters, Lloyd",1,8,4,3,1
+"Peters, Lloyd",1,9,7,4,3
+"Peters, Lloyd",1,10,4,4,0
+"Peters, Lloyd",1,11,7,5,2
+"Peters, Lloyd",1,12,3,3,0
+"Peters, Lloyd",1,13,4,4,0
+"Peters, Lloyd",1,14,5,5,0
+"Peters, Lloyd",1,15,5,4,1
+"Peters, Lloyd",1,16,3,3,0
+"Peters, Lloyd",1,17,5,4,1
+"Peters, Lloyd",1,18,5,4,1
+"Greer, Robert",1,1,6,5,1
+"Greer, Robert",1,2,5,4,1
+"Greer, Robert",1,3,4,3,1
+"Greer, Robert",1,4,6,4,2
+"Greer, Robert",1,5,4,4,0
+"Greer, Robert",1,6,6,4,2
+"Greer, Robert",1,7,5,5,0
+"Greer, Robert",1,8,4,3,1
+"Greer, Robert",1,9,7,4,3
+"Greer, Robert",1,10,4,4,0
+"Greer, Robert",1,11,6,5,1
+"Greer, Robert",1,12,3,3,0
+"Greer, Robert",1,13,5,4,1
+"Greer, Robert",1,14,6,5,1
+"Greer, Robert",1,15,4,4,0
+"Greer, Robert",1,16,4,3,1
+"Greer, Robert",1,17,3,4,-1
+"Greer, Robert",1,18,7,4,3
+"Zambito, Ryan",1,1,5,5,0
+"Zambito, Ryan",1,2,5,4,1
+"Zambito, Ryan",1,3,3,3,0
+"Zambito, Ryan",1,4,5,4,1
+"Zambito, Ryan",1,5,8,4,4
+"Zambito, Ryan",1,6,5,4,1
+"Zambito, Ryan",1,7,6,5,1
+"Zambito, Ryan",1,8,4,3,1
+"Zambito, Ryan",1,9,5,4,1
+"Zambito, Ryan",1,10,6,4,2
+"Zambito, Ryan",1,11,6,5,1
+"Zambito, Ryan",1,12,4,3,1
+"Zambito, Ryan",1,13,5,4,1
+"Zambito, Ryan",1,14,7,5,2
+"Zambito, Ryan",1,15,5,4,1
+"Zambito, Ryan",1,16,4,3,1
+"Zambito, Ryan",1,17,3,4,-1
+"Zambito, Ryan",1,18,6,4,2
