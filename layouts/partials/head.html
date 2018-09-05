@@ -29,5 +29,14 @@
   <!-- RSS -->
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
+  <!-- AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-8342145237492757",
+      enable_page_level_ads: true
+    });
+  </script>
+
   {{ partial "hook_head_end.html" . }}
 </head>
