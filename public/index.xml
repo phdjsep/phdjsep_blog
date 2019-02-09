@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sep Dadsetan</copyright>
-    <lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting up Keras/Tensorflow in RStudio</title>
+      <link>/2019/02/09/setting-up-keras-tensorflow-in-rstudio/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/02/09/setting-up-keras-tensorflow-in-rstudio/</guid>
+      <description>+++ +++
+I&amp;rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased Deep Learning in R from Manning Books along with its digital course taught by @Rick_Scavetta. It&amp;rsquo;s been very interesting and so naturally I was excited to try my hand at the &amp;ldquo;Hello, World!&amp;rdquo; of DL and play with the infamous MNIST dataset.
+So I fired my local RStudio session and followed the 3 step instructions to setup keras/tensorflow:</description>
+    </item>
     
     <item>
       <title>Magical Footgolf Challenge Round 1 Statistics</title>
@@ -18,7 +29,7 @@
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/2018/09/02/magical-footgolf-challenge-round-1-statistics/</guid>
-      <description>Summary Stats by Division Men   Overall Course Stats How were the scores distributed per round?   round  hole  par  avg.score  better  eagles  birdies  pars  bogeys  doubles  worse  par.avg      1  1  5  5.380  0  0  1  30  18  1  0  0.380    1  2  4  4.</description>
+      <description>Summary Stats by Division Men   Overall Course Stats How were the scores distributed per round?   round  hole  par  avg.score  better  eagles  birdies  pars  bogeys  doubles  worse  par.avg      1  1  5  5.380  0  0  1  30  18  1  0  0.</description>
     </item>
     
     <item>
@@ -66,7 +77,7 @@
       <description>Another Major, another analysis…
 This time I didn’t have the pleasure of being there, but it was fun to keep up from afar. I’ve pulled data and calculated the course statistics for the tournament. 
 Overall Stats Some interesting patterns emerge when calculating all the scores across all rounds.
- Holes 3, 7, 12, and 14 were the most difficult. Three of them were par 3’s and one par 4. Hole 6, 8, 10 were the easiest.</description>
+ Holes 3, 7, 12, and 14 were the most difficult. Three of them were par 3’s and one par 4.</description>
     </item>
     
     <item>
@@ -77,6 +88,15 @@ Overall Stats Some interesting patterns emerge when calculating all the scores a
       <guid>/2018/05/03/us-open/</guid>
       <description>Introduction The American FootGolf League (AFGL) and River Ridge Golf Course hosted the 2018 U.S. Open in Oxnard, CA on April 26th - 29th. The tournament saw players attend from all over the world for the first major of the FIFG World Tour. The course was very difficult as it was both long (~3600 yds), sloped, fast, and occassionally windy.
 I played in the tournament myself, albeit not well, and anecdotally found that certain holes were more troublesome than others, especially depending on time of day (ex, windy).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/</guid>
+      <description>Setting up Keras/Tensorflow in RStudio       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
     <item>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.48" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Setting up Keras/Tensorflow in RStudio &middot; phdjsep</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="/css/poole.css"><link type="text/css" rel="stylesheet" href="/css/hyde.css"><link type="text/css" rel="stylesheet" href="/css/social.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Sans:400,400i,700|Titillium+Web">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="phdjsep" />
+
+  
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-8342145237492757",
+      enable_page_level_ads: true
+    });
+  </script>
+
+  
+</head>
+
+  <body class=" ">
+  <div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="/">
+        <h1 class="shadow">phdjsep</h1>
+      </a>
+      <p class="lead">
+        <div id='icons'>
+          <a class="linkedin" target="new" href="https://linkedin.com/in/sepdadsetan/"><i class='fab fa-linkedin fa-lg'></i></a>
+          <a class="facebook" target="new" href="https://facebook.com/phdjsep"><i class='fab fa-facebook fa-lg'></i></a>
+          <a class="twitter" target="new" href="https://twitter.com/phdjsep"><i class='fab fa-twitter fa-lg'></i></a>
+          <a class="github" target="new" href="https://github.com/phdjsep"><i class='fab fa-github fa-lg'></i></a>
+        </div>
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <h5>PAGES</h5>
+      <li><a href="/page/about/"> About </a></li>
+    </ul>
+
+    <div id="tag-cloud">
+      <h5>SUBJECTS</h5>
+    
+    
+    
+    
+    
+    
+    <a href="/tags/footgolf" class="btn btn-default tag-cloud-link" role="button">footgolf <span class="badge">(6)</span></a>
+    
+    
+    
+    
+    <a href="/tags/r-markdown" class="btn btn-default tag-cloud-link" role="button">r-markdown <span class="badge">(6)</span></a>
+    
+    
+    
+    
+    <a href="/tags/world-tour" class="btn btn-default tag-cloud-link" role="button">world-tour <span class="badge">(5)</span></a>
+    
+    
+    
+    
+    <a href="/tags/afgl" class="btn btn-default tag-cloud-link" role="button">afgl <span class="badge">(3)</span></a>
+    
+    
+    </div>
+
+    
+
+    <p class="sidebar-sticky">
+    &copy; 2019. All rights reserved. 
+    </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+	<header class="post-full-header">
+	    <h1 class="post-full-title">Setting up Keras/Tensorflow in RStudio</h1>
+	    <section class="post-full-meta">
+	        <time class="post-full-meta-date" datetime="2019-02-09">9 February 2019</time>
+	            <span class="date-divider">/</span> <a href="/tags/tensorflow/">#tensorflow</a>&nbsp;<a href="/tags/keras/">#keras</a>&nbsp;
+	    </section>
+	</header>
+  <p>+++ +++</p>
+
+<p>I&rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased <a href="https://www.manning.com/books/deep-learning-with-r">Deep Learning in R from Manning Books</a> along with its digital course taught by <a href="https://twitter.com/rick_scavetta">@Rick_Scavetta</a>. It&rsquo;s been very interesting and so naturally I was excited to try my hand at the &ldquo;Hello, World!&rdquo; of DL and play with the infamous MNIST dataset.</p>
+
+<p>So I fired my local RStudio session and followed the 3 step instructions to setup <a href="https://keras.rstudio.com/">keras/tensorflow</a>:</p>
+
+<ol>
+<li><code>devtools::install_github(&quot;rstudio/keras&quot;)</code> (Assumes devtools is installed, if not: <code>install.packages(&quot;devtools&quot;)</code>)</li>
+<li><code>library(keras)</code></li>
+<li><code>install_keras()</code></li>
+</ol>
+
+<p>Easy peezy, right? Unfortunately&hellip;Error.</p>
+
+<p><code>install_keras()</code> is quite flexible and does many things behind the scenes to try and make the installation process dead simple. Unfortunately for someone like me who already has some custom Python configurations (and old ones at that), I ran into a roadblock.</p>
+
+<p>Some background: <code>install_keras()</code> tries to determine the python tools (eg, pip, conda, virtualenv) you have available on your system to then proceed with install of keras and tensorflow. The thing it does first is to create a virtual environment which allows it to install all the fun python tools it needs. If you&rsquo;re not familiar with <code>virtualenv</code>, it can be an absolute life saver because it &ldquo;walls off&rdquo; the python software needed for a project from your global system. This is helpful to keep package dependencies consistent and prevent code from breaking because there&rsquo;s an unsupported function/feature/package. I highly recommend installing it (along with the helpful <code>virtualenvwrapper</code>). You can read more <a href="https://virtualenv.pypa.io/en/latest/">here</a></p>
+
+<p>Back to my roadblock&hellip;<code>install_keras()</code> was failing during the install of tensorflow because of a pip issue. I thought this might be due to my virtualenv/pip configuration, so I attempted to install tensorflow on my own and then point RStudio environment to that, but wasn&rsquo;t successful. Very importantly, I stepped away from the problem, then came back and took a different approach. After some more exploration and research, it turns out that my global pip version (and virtualenv) was OLD. I ran a simple <code>pip install -U pip</code> and a <code>pip install -U virtualenv</code> to bring these packages up to speed.</p>
+
+<p>Unfortunately these then hung a the &ldquo;Uninstalling&hellip;&rdquo; phase of the upgrade which after a little more research turned out to be a permission issue to which <code>sudo pip install -U pip virtualenv</code> worked. Not my favorite to use sudo, but this is an artifact of setting python up years ago on my Mac. <code>install_keras()</code> now completed and my journey into DL can commence!</p>
+
+<p>I hope this little tidbit helps others and at the very least acts as a reminder to future self :)</p>
+
+</div>
+
+<h2>Comments</h2>
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "phdjsep" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-16280498-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </body>
+</html>
