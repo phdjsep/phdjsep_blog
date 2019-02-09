@@ -1,10 +1,27 @@
-{{ partial "head.html" . }}
-  <body class="{{ .Site.Params.themeColor }} {{if .Site.Params.layoutReverse}}layout-reverse{{end}}">
-  {{ partial "sidebar.html" . }}
-    <div class="content container">
-    {{ block "main" . -}}{{- end }}
-    </div>
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language }}">
+<head>
+  {{ block "title" . }}
+    <title>{{ if .IsHome }}{{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}{{ else }}{{ .Title }} :: {{ $.Site.Title }}{{ with $.Site.Params.Subtitle }} — {{ . }}{{ end }}{{ end }}</title>
+  {{ end }}
+  {{ partial "head.html" . }}
+</head>
+<body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
+<div class="container">
+  {{ partial "header.html" . }}
 
-    {{ template "_internal/google_analytics_async.html" . }}
-  </body>
+  <div class="content">
+    {{ block "main" . }}
+    {{ end }}
+  </div>
+
+  {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+  {{ end }}
+</div>
+
+{{ template "_internal/google_analytics_async.html" . }}
+</body>
 </html>
+
+

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Setting up Keras/Tensorflow in RStudio :: phdjsep — data &amp; stuff</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="&#43;&#43;&#43; &#43;&#43;&#43;
+I&amp;rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased Deep Learning in R from Manning Books along with its digital course taught by @Rick_Scavetta. It&amp;rsquo;s been very interesting and so naturally I was excited to try my hand at the &amp;ldquo;Hello, World!&amp;rdquo; of DL and play with the infamous MNIST dataset.
+So I fired my local RStudio session and followed the 3 step instructions to setup keras/tensorflow:"/>
+<meta name="keywords" content="r, python, data, footgolf, tech"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/post/setting-up-keras-tensorflow-in-rstudio/" />
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Setting up Keras/Tensorflow in RStudio :: phdjsep — data &amp; stuff" />
+<meta name="twitter:description" content="&#43;&#43;&#43; &#43;&#43;&#43;
+I&amp;rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased Deep Learning in R from Manning Books along with its digital course taught by @Rick_Scavetta. It&amp;rsquo;s been very interesting and so naturally I was excited to try my hand at the &amp;ldquo;Hello, World!&amp;rdquo; of DL and play with the infamous MNIST dataset.
+So I fired my local RStudio session and followed the 3 step instructions to setup keras/tensorflow:" />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="Sep Dadsetan" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Setting up Keras/Tensorflow in RStudio :: phdjsep — data &amp; stuff">
+<meta property="og:description" content="&#43;&#43;&#43; &#43;&#43;&#43;
+I&amp;rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased Deep Learning in R from Manning Books along with its digital course taught by @Rick_Scavetta. It&amp;rsquo;s been very interesting and so naturally I was excited to try my hand at the &amp;ldquo;Hello, World!&amp;rdquo; of DL and play with the infamous MNIST dataset.
+So I fired my local RStudio session and followed the 3 step instructions to setup keras/tensorflow:" />
+<meta property="og:url" content="/post/setting-up-keras-tensorflow-in-rstudio/" />
+<meta property="og:site_name" content="Setting up Keras/Tensorflow in RStudio" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:section" content="RStudio" />
+<meta property="article:published_time" content="2019-02-09 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+</head>
+<body class="dark-theme">
+<div class="container">
+  <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">phdjsep</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/page/about">About</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/page/about">About</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+  <div class="content">
+    
+  <div class="post">
+    <h2 class="post-title"><a href="/post/setting-up-keras-tensorflow-in-rstudio/">Setting up Keras/Tensorflow in RStudio</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            2019-02-09
+        </span>
+      
+      <span class="post-author">— Written by Sep Dadsetan</span>
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/tensorflow">tensorflow</a>&nbsp;
+        
+          #<a href="/tags/keras">keras</a>&nbsp;
+        
+          #<a href="/tags/python">python</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      <p>+++ +++</p>
+
+<p>I&rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased <a href="https://www.manning.com/books/deep-learning-with-r">Deep Learning in R from Manning Books</a> along with its digital course taught by <a href="https://twitter.com/rick_scavetta">@Rick_Scavetta</a>. It&rsquo;s been very interesting and so naturally I was excited to try my hand at the &ldquo;Hello, World!&rdquo; of DL and play with the infamous MNIST dataset.</p>
+
+<p>So I fired my local RStudio session and followed the 3 step instructions to setup <a href="https://keras.rstudio.com/">keras/tensorflow</a>:</p>
+
+<ol>
+<li><code>devtools::install_github(&quot;rstudio/keras&quot;)</code> (Assumes devtools is installed, if not: <code>install.packages(&quot;devtools&quot;)</code>)</li>
+<li><code>library(keras)</code></li>
+<li><code>install_keras()</code></li>
+</ol>
+
+<p>Easy peezy, right? Unfortunately&hellip;Error.</p>
+
+<p><code>install_keras()</code> is quite flexible and does many things behind the scenes to try and make the installation process dead simple. Unfortunately for someone like me who already has some custom Python configurations (and old ones at that), I ran into a roadblock.</p>
+
+<p>Some background: <code>install_keras()</code> tries to determine the python tools (eg, pip, conda, virtualenv) you have available on your system to then proceed with install of keras and tensorflow. The thing it does first is to create a virtual environment which allows it to install all the fun python tools it needs. If you&rsquo;re not familiar with <code>virtualenv</code>, it can be an absolute life saver because it &ldquo;walls off&rdquo; the python software needed for a project from your global system. This is helpful to keep package dependencies consistent and prevent code from breaking because there&rsquo;s an unsupported function/feature/package. I highly recommend installing it (along with the helpful <code>virtualenvwrapper</code>). You can read more <a href="https://virtualenv.pypa.io/en/latest/">here</a></p>
+
+<p>Back to my roadblock&hellip;<code>install_keras()</code> was failing during the install of tensorflow because of a pip issue. I thought this might be due to my virtualenv/pip configuration, so I attempted to install tensorflow on my own and then point RStudio environment to that, but wasn&rsquo;t successful. Very importantly, I stepped away from the problem, then came back and took a different approach. After some more exploration and research, it turns out that my global pip version (and virtualenv) was OLD. I ran a simple <code>pip install -U pip</code> and a <code>pip install -U virtualenv</code> to bring these packages up to speed.</p>
+
+<p>Unfortunately these then hung a the &ldquo;Uninstalling&hellip;&rdquo; phase of the upgrade which after a little more research turned out to be a permission issue to which <code>sudo pip install -U pip virtualenv</code> worked. Not my favorite to use sudo, but this is an artifact of setting python up years ago on my Mac. <code>install_keras()</code> now completed and my journey into DL can commence!</p>
+
+<p>I hope this little tidbit helps others and at the very least acts as a reminder to future self :)</p>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+          
+            <span class="button next">
+              <a href="/post/2018-09-02-magical-round-1/">
+                <span class="button__text">Magical Footgolf Challenge Round 1 Statistics</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+    
+
+    </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">Sep Dadsetan</div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+  
+</div>
+
+</body>
+</html>

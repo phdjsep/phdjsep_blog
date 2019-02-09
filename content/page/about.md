@@ -5,6 +5,11 @@ description = "Things about me."
 layout = "page"
 +++
 
+## Social Media
+- [linkedin](https://linkedin.com/in/sepdadsetan/)
+- [twitter](https://twitter.com/phdjsep)
+- [github](https://github.com/phdjsep)
+
 ## Fun facts
 - I don't like coffee (my wife LOVES IT though)
 - I have literally herded cats

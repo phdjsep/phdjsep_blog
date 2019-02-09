@@ -6,7 +6,6 @@
     <description>Recent content on phdjsep</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Sep Dadsetan</copyright>
     <lastBuildDate>Sat, 09 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +17,7 @@
       <pubDate>Sat, 09 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/2019/02/09/setting-up-keras-tensorflow-in-rstudio/</guid>
-      <description>+++ +++
-I&amp;rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased Deep Learning in R from Manning Books along with its digital course taught by @Rick_Scavetta. It&amp;rsquo;s been very interesting and so naturally I was excited to try my hand at the &amp;ldquo;Hello, World!&amp;rdquo; of DL and play with the infamous MNIST dataset.
+      <description>I&amp;rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased Deep Learning in R from Manning Books along with its digital course taught by @Rick_Scavetta. It&amp;rsquo;s been very interesting and so naturally I was excited to try my hand at the &amp;ldquo;Hello, World!&amp;rdquo; of DL and play with the infamous MNIST dataset.
 So I fired my local RStudio session and followed the 3 step instructions to setup keras/tensorflow:</description>
     </item>
     
@@ -105,7 +103,7 @@ I played in the tournament myself, albeit not well, and anecdotally found that c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/page/about/</guid>
-      <description>Fun facts  I don&amp;rsquo;t like coffee (my wife LOVES IT though) I have literally herded cats I dj 😎 I LOVE learning and exploring new concepts and ideas and bringing them to life.  Origin story I pretty much knew I wanted to be a scientist since the age of 5. The declaration came while in Yosemite. My Mom and her best friend were getting ready for a wedding.</description>
+      <description>Social Media  linkedin twitter github  Fun facts  I don&amp;rsquo;t like coffee (my wife LOVES IT though) I have literally herded cats I dj 😎 I LOVE learning and exploring new concepts and ideas and bringing them to life.  Origin story I pretty much knew I wanted to be a scientist since the age of 5. The declaration came while in Yosemite. My Mom and her best friend were getting ready for a wedding.</description>
     </item>
     
   </channel>

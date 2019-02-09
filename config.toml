@@ -1,24 +1,52 @@
 baseurl = "/"
-title = "phdjsep"
-theme = "hyde"
 languageCode = "en-us"
-copyright = "Sep Dadsetan"
+theme = "hugo-theme-hello-friend"
+paginate = 5
 disqusShortname = "phdjsep"
 googleAnalytics = "UA-16280498-1"
-enableEmoji = true
-paginate = 5
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-[Params]
-    custom_css = ["css/poole.css", "css/hyde.css", "css/social.css"]
-    description = "Data & Stuff"
-    github = "https://github.com/phdjsep"
-    linkedin = "https://linkedin.com/in/sepdadsetan/"
-    twitter = "https://twitter.com/phdjsep"
-    facebook = "https://facebook.com/phdjsep"
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "post"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+  
+  # custom_css = ["css/poole.css", "css/hyde.css", "css/social.css"]
+  description = "Data & Stuff"
+  github = "https://github.com/phdjsep"
+  linkedin = "https://linkedin.com/in/sepdadsetan/"
+  twitter = "https://twitter.com/phdjsep"
+  facebook = "https://facebook.com/phdjsep"
 
-[Permalinks]
+[permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "About"
-    url = "/page/about/"
+[languages]
+  [languages.en]
+    title = "phdjsep"
+    subtitle = "data & stuff"
+    keywords = "r, python, data, footgolf, tech"
+    copyright = ""
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+
+    [languages.en.params.logo]
+      logoText = "phdjsep"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/page/about"
