@@ -10,7 +10,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "post"
   # "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
   
