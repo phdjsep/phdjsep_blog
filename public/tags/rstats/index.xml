@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rstats on phdjsep</title>
+    <link>/tags/rstats/</link>
+    <description>Recent content in Rstats on phdjsep</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rstats/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting up Keras/Tensorflow in RStudio</title>
+      <link>/2019/02/09/setting-up-keras-tensorflow-in-rstudio/</link>
+      <pubDate>Sat, 09 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/02/09/setting-up-keras-tensorflow-in-rstudio/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased &lt;a href=&#34;https://www.manning.com/books/deep-learning-with-r&#34;&gt;Deep Learning in R from Manning Books&lt;/a&gt; along with its digital course taught by &lt;a href=&#34;https://twitter.com/rick_scavetta&#34;&gt;@Rick_Scavetta&lt;/a&gt;. It&amp;rsquo;s been very interesting and so naturally I was excited to try my hand at the &amp;ldquo;Hello, World!&amp;rdquo; of DL and play with the infamous MNIST dataset.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

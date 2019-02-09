@@ -9,6 +9,7 @@ tags:
   - tensorflow
   - keras
   - python
+  - rstats
 ---
 
 I've recently grown more interested in understanding deep learning (DL) and so I purchased [Deep Learning in R from Manning Books](https://www.manning.com/books/deep-learning-with-r) along with its digital course taught by [@Rick_Scavetta](https://twitter.com/rick_scavetta). It's been very interesting and so naturally I was excited to try my hand at the "Hello, World!" of DL and play with the infamous MNIST dataset.<!--more-->
