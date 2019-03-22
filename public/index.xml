@@ -6,10 +6,19 @@
     <description>Recent content on phdjsep</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting up MIMIC-III dataset locally (OSX)</title>
+      <link>/2019/03/22/setting-up-mimic-iii-dataset-locally-osx/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/22/setting-up-mimic-iii-dataset-locally-osx/</guid>
+      <description>I wanted a local dataset to begin messing around with deep learning (and whatever the next hot technology will be in 6 months lol). Since most of my time is spent on electronic medical record (EMR) data, I decided to set out on finding a free dataset that I could leverage for my experimentations. Since I had to bounce around the net combining pieces of information to make this thing operational, I decided to write this post for myself and perhaps the passerby.</description>
+    </item>
     
     <item>
       <title>Setting up Keras/Tensorflow in RStudio</title>
@@ -72,8 +81,7 @@
       
       <guid>/2018/06/23/capital-cup/</guid>
       <description>Another Major, another analysis…
-This time I didn’t have the pleasure of being there, but it was fun to keep up from afar. I’ve pulled data and calculated the course statistics for the tournament. 
-Overall Stats Some interesting patterns emerge when calculating all the scores across all rounds.
+This time I didn’t have the pleasure of being there, but it was fun to keep up from afar. I’ve pulled data and calculated the course statistics for the tournament. HUGOMORE42 Overall Stats Some interesting patterns emerge when calculating all the scores across all rounds.
  Holes 3, 7, 12, and 14 were the most difficult. Three of them were par 3’s and one par 4.</description>
     </item>
     

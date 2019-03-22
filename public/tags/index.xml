@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Healthcare</title>
+      <link>/tags/healthcare/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/healthcare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Keras</title>
       <link>/tags/keras/</link>
       <pubDate>Sat, 09 Feb 2019 00:00:00 +0000</pubDate>
@@ -59,7 +68,7 @@
     <item>
       <title>Rstats</title>
       <link>/tags/rstats/</link>
-      <pubDate>Sat, 09 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/rstats/</guid>
       <description></description>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2019/03/22/setting-up-mimic-iii-dataset-locally-osx/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2019/02/09/setting-up-keras-tensorflow-in-rstudio/</loc>
     <lastmod>2019-02-09T00:00:00+00:00</lastmod>
   </url>
@@ -62,6 +67,12 @@
   </url>
   
   <url>
+    <loc>/categories/engineering/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/footgolf/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -70,6 +81,12 @@
   <url>
     <loc>/categories/footgolf/</loc>
     <lastmod>2018-09-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/healthcare/</loc>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -86,7 +103,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -104,7 +121,7 @@
   
   <url>
     <loc>/tags/rstats/</loc>
-    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -140,7 +157,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

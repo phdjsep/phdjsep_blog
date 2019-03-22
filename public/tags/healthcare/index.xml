@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rstats on phdjsep</title>
-    <link>/tags/rstats/</link>
-    <description>Recent content in Rstats on phdjsep</description>
+    <title>Healthcare on phdjsep</title>
+    <link>/tags/healthcare/</link>
+    <description>Recent content in Healthcare on phdjsep</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/rstats/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/healthcare/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/2019/03/22/setting-up-mimic-iii-dataset-locally-osx/</guid>
       <description>I wanted a local dataset to begin messing around with deep learning (and whatever the next hot technology will be in 6 months lol). Since most of my time is spent on electronic medical record (EMR) data, I decided to set out on finding a free dataset that I could leverage for my experimentations. Since I had to bounce around the net combining pieces of information to make this thing operational, I decided to write this post for myself and perhaps the passerby.</description>
-    </item>
-    
-    <item>
-      <title>Setting up Keras/Tensorflow in RStudio</title>
-      <link>/2019/02/09/setting-up-keras-tensorflow-in-rstudio/</link>
-      <pubDate>Sat, 09 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/02/09/setting-up-keras-tensorflow-in-rstudio/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve recently grown more interested in understanding deep learning (DL) and so I purchased &lt;a href=&#34;https://www.manning.com/books/deep-learning-with-r&#34;&gt;Deep Learning in R from Manning Books&lt;/a&gt; along with its digital course taught by &lt;a href=&#34;https://twitter.com/rick_scavetta&#34;&gt;@Rick_Scavetta&lt;/a&gt;. It&amp;rsquo;s been very interesting and so naturally I was excited to try my hand at the &amp;ldquo;Hello, World!&amp;rdquo; of DL and play with the infamous MNIST dataset.&lt;/p&gt;</description>
     </item>
     
   </channel>
